@@ -22,11 +22,8 @@ export default function RootLayout({ children }) {
 						<div className="">
 							<Profile />
 						</div>
-						<div className="">
-							Lorem ipsum dolor, sit amet consectetur adipisicing
-							elit. Expedita, nihil.
-						</div>
-						<div className="">Lorem.</div>
+						<div className=""></div>
+						<div className=""></div>
 					</section>
 				</div>
 			</body>
