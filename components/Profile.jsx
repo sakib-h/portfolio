@@ -10,7 +10,7 @@ import {
 } from 'react-icons/ai';
 const Profile = () => {
 	return (
-		<div className=" my-[15px]  p-8 flex flex-col items-center rounded-[30px] border-[1px] border-[#565656]">
+		<div className=" my-[15px]  p-8 flex flex-col items-center rounded-[30px] border-[1px] border-border-color">
 			<div className="top-area w-full flex justify-between items-start">
 				<h1 className="text-4xl font-bold">Sakib-H</h1>
 			</div>
@@ -32,36 +32,41 @@ const Profile = () => {
 				<Link
 					className="icon"
 					href="https://github.com/sakib-h"
-					target="_blank">
+					target="_blank"
+					title="github">
 					<AiOutlineGithub className="profile-icon" />
 				</Link>
 				<Link
 					className="icon"
 					href="https://www.linkedin.com/in/abdullah-al-sakib/"
-					target="_blank">
+					target="_blank"
+					title="linkedin">
 					<AiOutlineLinkedin className="profile-icon" />
 				</Link>
 				<Link
 					className="icon"
 					href="https://twitter.com/Sakib_365"
-					target="_blank">
+					target="_blank"
+					title="twitter">
 					<AiOutlineTwitter className="profile-icon" />
 				</Link>
 				<Link
 					className="icon"
 					href="https://www.facebook.com/sakib.hasan1998/"
-					target="_blank">
+					target="_blank"
+					title="facebook">
 					<AiFillFacebook className="profile-icon" />
 				</Link>
 				<Link
 					className="icon"
 					href="https://www.instagram.com/__sakibhasan/"
-					target="_blank">
+					target="_blank"
+					title="instagram">
 					<AiOutlineInstagram className="profile-icon" />
 				</Link>
 			</div>
 			<div className="footer-area w-full flex justify-center">
-				<button className="w-full bg-[#28e98c] flex justify-center items-center text-[#000] py-[10px] text-lg  rounded-[30px]">
+				<button className="w-full bg-secondary flex justify-center items-center text-alternative py-[10px] text-lg  rounded-[30px]">
 					<AiOutlineMail className=" mr-1" />
 					Hire Me
 				</button>
