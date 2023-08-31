@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .container{
-    @apply w-[98%] mx-auto
+    @apply w-[90%] md:w-full mx-auto md:mx-10
 }
 .icon{
     @apply relative h-[50px] w-[50px] rounded-full border-[1px] border-[#565656]  cursor-pointer mx-2
