@@ -7,12 +7,15 @@ import {
 	AiFillFacebook,
 	AiOutlineInstagram,
 	AiOutlineMail,
+	AiOutlineSetting,
 } from 'react-icons/ai';
+import { SiFiverr } from 'react-icons/si';
 const Profile = () => {
 	return (
 		<div className=" my-[15px] p-8 flex flex-col items-center rounded-[30px] border-[1px] border-border-color">
-			<div className="top-area w-full flex justify-between items-start">
-				<h1 className="text-4xl font-bold">Sakib-H</h1>
+			<div className="top-area w-full flex justify-between items-center">
+				<h1 className="text-3xl font-bold">Sakib Hasan</h1>
+				<AiOutlineSetting className="text-2xl cursor-pointer" />
 			</div>
 			<div className="image-area">
 				<Image
@@ -66,7 +69,7 @@ const Profile = () => {
 				</Link>
 			</div>
 			<div className="footer-area w-full flex justify-center">
-				<button className="w-full bg-secondary flex justify-center items-center text-alternative py-[10px] text-lg  rounded-[30px]">
+				<button className="w-full bg-secondary flex justify-center items-center text-alternative py-[10px] text-[14px]  rounded-[30px]">
 					<AiOutlineMail className=" mr-1" />
 					Hire Me
 				</button>

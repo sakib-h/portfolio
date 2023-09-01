@@ -25,7 +25,7 @@ export default function RootLayout({ children }) {
 						<div className="md:fixed md:top-[50%] md:translate-y-[-50%]">
 							<Profile />
 						</div>
-						<div className="md:ml-[450px] md:mr-[100px]">
+						<div className="md:ml-[500px] md:mr-[100px]">
 							{children}
 						</div>
 						<div className="hidden md:inline-block md:fixed md:top-[50%] md:translate-y-[-50%] md:right-10">
