@@ -24,6 +24,7 @@ const Profile = () => {
 					width={300}
 					height={300}
 					quality={100}
+					loading="lazy"
 					className="my-[15px] rounded-[30px]"
 				/>
 			</div>

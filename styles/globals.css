@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .container{
-    @apply w-[90%] md:w-full mx-auto md:mx-10
+    @apply w-[90%] lg:w-full mx-auto lg:mx-10
 }
 .social-icon{
     @apply relative h-[50px] w-[50px] rounded-full border-[1px] border-border-color  cursor-pointer mx-2

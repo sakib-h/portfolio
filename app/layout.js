@@ -21,14 +21,14 @@ export default function RootLayout({ children }) {
 				className="min-w-screen min-h-screen  bg-main text-primary overflow-x-hidden"
 				suppressHydrationWarning={true}>
 				<main className="container">
-					<section className="w-full relative md:flex flex-row justify-between items-center">
-						<div className="md:fixed md:top-[50%] md:translate-y-[-50%]">
+					<section className="w-full relative lg:flex flex-row justify-between items-center">
+						<div className="lg:fixed lg:top-[50%] lg:translate-y-[-50%]">
 							<Profile />
 						</div>
-						<div className="md:ml-[500px] md:mr-[100px]">
+						<div className="lg:ml-[500px] lg:mr-[100px]">
 							{children}
 						</div>
-						<div className="hidden md:inline-block md:fixed md:top-[50%] md:translate-y-[-50%] md:right-10">
+						<div className="hidden lg:inline-block lg:fixed lg:top-[50%] lg:translate-y-[-50%] lg:right-10">
 							<Navbar />
 						</div>
 					</section>
