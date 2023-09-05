@@ -1,14 +1,18 @@
 'use client';
 import { motion, useTime, useTransform } from 'framer-motion';
 import Image from 'next/image';
-import { AiOutlineHome, AiOutlineArrowDown } from 'react-icons/ai';
+import {
+	AiOutlineHome,
+	AiOutlineArrowDown,
+	AiOutlineCalendar,
+} from 'react-icons/ai';
 import CountUp from 'react-countup';
 
 const Hero = () => {
-    const time = useTime();
+	const time = useTime();
 	const rotate = useTransform(time, [0, 5500], [0, 360], { clamp: false });
-  return (
-    <section
+	return (
+		<section
 			id="home"
 			className="section">
 			<div className="title-area flex items-center font-[300] w-max border-[1px] border-border-color text-[12px] mb-[50px] px-[20px] py-[9px] rounded-[30px] uppercase">
@@ -26,35 +30,20 @@ const Hero = () => {
 					i do. Just simple like that!
 				</p>
 			</div>
-			<div className="flex flex-col lg:flex-row justify-between gap-20 items-center mb-[50px]">
-				<div className="flex  gap-20">
-					<div className="flex flex-col items-center">
-						<p className="flex items-center text-[72px] leading-[56px] text-secondary mb-[38px]">
-							<CountUp
-								end={3}
-								duration={1}
-							/>
-							<span>+</span>
-						</p>
-						<p className="text-[14px] text-secondary-text font-[400]">
-							YEARS OF EXPERIENCE
-						</p>
-					</div>
-
-					<div className="flex flex-col items-center">
-						<p className="flex items-center text-[72px] leading-[56px] text-secondary mb-[38px]">
-							<CountUp end={50} />
-							<span>+</span>
-						</p>
-						<p className="text-[14px] text-secondary-text font-[400]">
-							PROJECTS COMPLETED ON 15 COUNTRIES
-						</p>
+			<div className="flex flex-col lg:flex-row justify-between gap-10 items-center mb-[50px]">
+				<div className="w-full grid grid-cols-1 lg:grid-cols-3  gap-5">
+					<div className="flex flex-col">
+						<CountUp
+							end={3}
+							duration={0.5}
+						/>
 					</div>
 				</div>
 				<div className="border-[1px] border-border-color rounded-full p-4 relative">
 					<motion.div style={{ rotate }}>
 						<Image
 							src="/images/extras/round-text.png"
+							alt="Resume"
 							height={150}
 							width={150}
 						/>
@@ -63,7 +52,7 @@ const Hero = () => {
 				</div>
 			</div>
 		</section>
-  )
-}
+	);
+};
 
 export default Hero

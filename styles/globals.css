@@ -2,8 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
+
+:root {
+	scroll-behavior: smooth;
+}
+
 .container{
-    @apply w-[90%] lg:w-full mx-auto lg:mx-10
+    @apply w-[90%] h-screen lg:w-full mx-auto lg:mx-10
 }
 .social-icon{
     @apply relative h-[50px] w-[50px] rounded-full border-[1px] border-border-color  cursor-pointer mx-2
@@ -17,4 +22,7 @@
 }
 .section{
     @apply min-h-screen pt-[150px]  flex flex-col
+}
+.is-active > .nav-icon{
+    @apply text-secondary duration-300
 }
