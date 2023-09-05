@@ -16,5 +16,5 @@
     @apply text-[20px] text-secondary-text mx-3
 }
 .section{
-    @apply mt-[150px]  flex flex-col
+    @apply min-h-screen pt-[150px]  flex flex-col
 }

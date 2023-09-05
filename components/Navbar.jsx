@@ -15,13 +15,14 @@ const Navbar = () => {
 			<Link
 				className="cursor-pointer"
 				href="/"
+				id="#home"
 				title="Home">
 				<AiOutlineHome className="nav-icon" />
 			</Link>
 
 			<Link
 				className="cursor-pointer"
-				href="/about"
+				href="#about"
 				title="About">
 				<AiOutlineUser className="nav-icon" />
 			</Link>

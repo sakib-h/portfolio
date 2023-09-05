@@ -16,12 +16,12 @@ export default function RootLayout({ children }) {
 	return (
 		<html
 			lang="en"
-			className={inter.className}>
+			className={`${inter.className}`}>
 			<body
-				className="min-w-screen min-h-screen  bg-main text-primary overflow-x-hidden"
+				className="min-w-screen min-h-screen bg-main text-primary overflow-x-hidden"
 				suppressHydrationWarning={true}>
 				<main className="container">
-					<section className="w-full relative lg:flex flex-row justify-between items-center">
+					<div className="w-full relative lg:flex flex-row justify-between items-center">
 						<div className="lg:fixed lg:top-[50%] lg:translate-y-[-50%]">
 							<Profile />
 						</div>
@@ -31,7 +31,7 @@ export default function RootLayout({ children }) {
 						<div className="hidden lg:inline-block lg:fixed lg:top-[50%] lg:translate-y-[-50%] lg:right-10">
 							<Navbar />
 						</div>
-					</section>
+					</div>
 				</main>
 			</body>
 		</html>
