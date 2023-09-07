@@ -31,12 +31,39 @@ const Hero = () => {
 				</p>
 			</div>
 			<div className="flex flex-col lg:flex-row justify-between gap-10 items-center mb-[50px]">
-				<div className="w-full grid grid-cols-1 lg:grid-cols-3  gap-5">
-					<div className="flex flex-col">
+				<div className="w-full grid grid-cols-1 lg:grid-cols-3  gap-5 items-center">
+					<div className=" flex flex-col items-center">
 						<CountUp
 							end={3}
-							duration={0.5}
+							duration={1}
+							className="text-[72px] leading-[56px] text-secondary mb-5"
 						/>
+						<div className="flex flex-col items-center text-[14px] text-secondary-text font-[400]">
+							<span>YEARS</span>
+							<span>Experience</span>
+						</div>
+					</div>
+					<div className=" flex flex-col items-center">
+						<CountUp
+							end={52}
+							duration={1}
+							className="text-[72px] leading-[56px] text-secondary mb-5"
+						/>
+						<div className="flex flex-col items-center text-[14px] text-secondary-text font-[400]">
+							<span>PROJECTS</span>
+							<span>COMPLETED</span>
+						</div>
+					</div>
+					<div className=" flex flex-col items-center">
+						<CountUp
+							end={27}
+							duration={1}
+							className="text-[72px] leading-[56px] text-secondary mb-5"
+						/>
+						<div className="flex flex-col items-center text-[14px] text-secondary-text font-[400]">
+							<span>HAPPY</span>
+							<span>CLIENTS</span>
+						</div>
 					</div>
 				</div>
 				<div className="border-[1px] border-border-color rounded-full p-4 relative">
