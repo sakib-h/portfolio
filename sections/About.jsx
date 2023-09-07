@@ -1,20 +1,17 @@
-import React from 'react';
 import { AiOutlineUser } from 'react-icons/ai';
 const About = () => {
 	return (
 		<section
 			className="section"
 			id="about">
-			<div className="title-area flex items-center font-[300] w-max border-[1px] border-border-color text-[12px] mb-[50px] px-[20px] py-[9px] rounded-[30px] uppercase">
+			<div className="section-header">
 				<AiOutlineUser className="text-[16px] mr-2" />
 				<h4>About</h4>
 			</div>
 			<div className="mb-[50px]">
 				<h1 className="text-[38px] md:text-[42px] lg:text-[48px] font-[300] mb-[50px]">
 					In the Realm of the WEB, Every Masterpiece begins with a
-					<em className="text-secondary font-[500]">
-						Compelling Story
-					</em>
+					<span className="text-secondary"> Compelling Story</span>
 				</h1>
 				<p className="text-secondary-text text-[16px] mb-5">
 					For the past three years, I've been working as a MERN stack

@@ -23,6 +23,9 @@
 .section{
     @apply min-h-screen pt-[150px]  flex flex-col
 }
+.section-header{
+    @apply  flex items-center font-[300] w-max border-[1px] border-border-color text-[12px] mb-[50px] px-[20px] py-[9px] rounded-[30px] uppercase
+}
 .is-active > .nav-icon{
     @apply text-secondary duration-300
 }
