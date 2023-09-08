@@ -29,3 +29,6 @@
 .is-active > .nav-icon{
     @apply text-secondary duration-300
 }
+li{
+    @apply mb-4 last:mb-0
+}
