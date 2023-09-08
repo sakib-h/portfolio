@@ -30,5 +30,5 @@
     @apply text-secondary duration-300
 }
 li{
-    @apply mb-4 last:mb-0
+    @apply mb-2 last:mb-0
 }
