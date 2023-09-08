@@ -25,7 +25,7 @@ export default function RootLayout({ children }) {
 						<div className="lg:fixed lg:top-[50%] lg:translate-y-[-50%]">
 							<Profile />
 						</div>
-						<div className="lg:ml-[500px] lg:mr-[100px]">
+						<div className="lg:ml-[450px] xl:ml-[500px] lg:mr-[100px]">
 							{children}
 						</div>
 						<div className="hidden lg:inline-block lg:fixed lg:top-[50%] lg:translate-y-[-50%] lg:right-10">

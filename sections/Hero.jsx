@@ -36,7 +36,7 @@ const Hero = () => {
 						<CountUp
 							end={3}
 							duration={1}
-							className="text-[48px] lg:text-[72px] leading-[56px] text-secondary mb-4"
+							className="text-[48px] md:text-[56px] xl:text-[72px] leading-[56px] text-secondary mb-4"
 						/>
 						<div className="flex flex-col items-center text-[14px] text-secondary-text font-[400]">
 							<span>YEARS</span>
@@ -47,7 +47,7 @@ const Hero = () => {
 						<CountUp
 							end={52}
 							duration={1}
-							className="text-[48px] lg:text-[72px] leading-[56px] text-secondary mb-4"
+							className="text-[48px] md:text-[56px] xl:text-[72px] leading-[56px] text-secondary mb-4"
 						/>
 						<div className="flex flex-col items-center text-[14px] text-secondary-text font-[400]">
 							<span>PROJECTS</span>
@@ -58,7 +58,7 @@ const Hero = () => {
 						<CountUp
 							end={27}
 							duration={1}
-							className="text-[48px] lg:text-[72px] leading-[56px] text-secondary mb-4"
+							className="text-[48px] md:text-[56px] xl:text-[72px] leading-[56px] text-secondary mb-4"
 						/>
 						<div className="flex flex-col items-center text-[14px] text-secondary-text font-[400]">
 							<span>HAPPY</span>
