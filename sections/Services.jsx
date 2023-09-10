@@ -103,8 +103,36 @@ const Services = () => {
 									height={20}
 									alt="check"
 								/>
-								Basic SEO Optimization to improve search engine
-								visibility
+								Advanced on-page SEO techniques for better
+								rankings.
+							</li>
+							<li className="flex items-start text-sm gap-2">
+								<Image
+									src="/images/extras/check.svg"
+									width={20}
+									height={20}
+									alt="check"
+								/>
+								E-commerce Integration for online shopping and
+								payment processing
+							</li>
+							<li className="flex items-start text-sm gap-2">
+								<Image
+									src="/images/extras/check.svg"
+									width={20}
+									height={20}
+									alt="check"
+								/>
+								Database Integration for Dynamic Content
+							</li>
+							<li className="flex items-start text-sm gap-2">
+								<Image
+									src="/images/extras/check.svg"
+									width={20}
+									height={20}
+									alt="check"
+								/>
+								Social Media Integration
 							</li>
 							<li className="flex items-start text-sm gap-2">
 								<Image
@@ -122,7 +150,8 @@ const Services = () => {
 									height={20}
 									alt="check"
 								/>
-								Contact Form and Basic Integration
+								Analytics Integration for tracking website
+								performance
 							</li>
 						</ul>
 					</div>
