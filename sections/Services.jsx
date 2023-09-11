@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import { GoProjectRoadmap } from 'react-icons/go';
 const Services = () => {
 	return (
@@ -14,28 +15,28 @@ const Services = () => {
 					<span className="text-secondary"> Services</span>
 				</h1>
 			</div>
-			<div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
-				<div className="col-spam-1 border-[1px] border-border-color rounded-[30px] hover:border-secondary px-10 py-5 justify-center duration-300">
-					<div className="w-full flex flex-col  items-center">
-						<em className="text-base pb-10">Starter</em>
-						<h2 className="text-xl">Front End Application</h2>
-						<p className="text-left">
-							<span>
-								Responsive and Mobile Friendly web app design
-							</span>
-							<span>Eye-catching and animated frontend design</span>
-							<span>Eye-catching and animated frontend design</span>
-							<span>Eye-catching and animated frontend design</span>
-						</p>
+			<div className="grid grid-cols-1 xl:grid-cols-3 gap-5 mb-[50px]">
+				<div className="col-spam-1 border-[1px] border-border-color rounded-[30px] hover:border-secondary px-8 py-10 justify-center duration-300">
+					<div className="w-full">
+						<h6 className="pt-10 text-xl mb-3">Basic Plan </h6>
+						<h1 className="text-secondary text-4xl mb-10">199$</h1>
+						<ul className="flex flex-col gap-3 list-outside">
+							<li className="flex items-start text-sm gap-2">
+								<Image
+									src="/images/extras/check.svg"
+									width={20}
+									height={20}
+									alt="check"
+								/>
+								Basic Website Development with Essential
+								Features and Functionality
+							</li>
+							<li className="flex items-start text-sm gap-2">
+								Fully Responsive, optimized for various screen
+								sizes and devices
+							</li>
+						</ul>
 					</div>
-				</div>
-				<div className="col-spam-1 border-[1px] border-border-color rounded-[30px] hover:border-secondary px-10 py-5 justify-center text-center">
-					<h5>Professional</h5>
-					<h2></h2>
-				</div>
-				<div className="col-spam-1 border-[1px] border-border-color rounded-[30px] hover:border-secondary px-10 py-5 justify-center text-center">
-					<h5>Enterprise</h5>
-					<h3></h3>
 				</div>
 			</div>
 		</section>
