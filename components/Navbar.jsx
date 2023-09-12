@@ -7,7 +7,6 @@ import {
 	AiOutlineMail,
 } from 'react-icons/ai';
 import { IoBriefcaseOutline } from 'react-icons/io5';
-import { GoProjectRoadmap } from 'react-icons/go';
 import { MdOutlineWeb } from 'react-icons/md';
 import { LiaComment } from 'react-icons/lia';
 import ScrollspyNav from 'react-scrollspy-nav';
@@ -19,7 +18,6 @@ const Navbar = () => {
 				'home',
 				'about',
 				'resume',
-				'services',
 				'skills',
 				'portfolios',
 				'testimonials',
@@ -47,12 +45,7 @@ const Navbar = () => {
 					title="Resume">
 					<IoBriefcaseOutline className="nav-icon" />
 				</Link>
-				<Link
-					className="cursor-pointer"
-					href="#services"
-					title="Services">
-					<GoProjectRoadmap className="nav-icon" />
-				</Link>
+
 				<Link
 					className="cursor-pointer"
 					href="#skills"
