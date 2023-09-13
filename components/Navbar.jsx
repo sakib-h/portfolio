@@ -19,7 +19,7 @@ const Navbar = () => {
 				'about',
 				'resume',
 				'skills',
-				'portfolios',
+				'portfolio',
 				'testimonials',
 				'contract',
 			]}
@@ -54,8 +54,8 @@ const Navbar = () => {
 				</Link>
 				<Link
 					className="cursor-pointer"
-					href="#portfolios"
-					title="Portfolios">
+					href="#portfolio"
+					title="Portfolio">
 					<AiOutlineDatabase className="nav-icon" />
 				</Link>
 				<Link
