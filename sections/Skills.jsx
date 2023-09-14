@@ -108,15 +108,12 @@ const Skills = () => {
 									Proficient in using Git and GitHub
 								</h4>
 								<p>
-									<p>
-										I am proficient in using Git and GitHub
-										for version control and collaborative
-										development. This enables me to
-										effectively manage code repositories,
-										track changes, and work seamlessly in
-										team environments, ensuring smooth
-										project workflows.
-									</p>
+									I am proficient in using Git and GitHub for
+									version control and collaborative
+									development. This enables me to effectively
+									manage code repositories, track changes, and
+									work seamlessly in team environments,
+									ensuring smooth project workflows.
 								</p>
 							</div>
 						</div>
