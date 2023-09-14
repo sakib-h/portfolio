@@ -93,14 +93,30 @@ const Skills = () => {
 								</h4>
 								<p>
 									Through a combination of strong
-									<strong>Problem-Solving</strong> skills and
+									<strong> Problem-Solving</strong> skills and
 									a deep understanding of modern web
 									development practices, I excel in creating
 									applications that not only meet client
 									expectations but also exceed them in terms
 									of <strong>Functionality</strong>,
-									<strong>Usability</strong>, and
-									<strong>Aesthetics</strong>.
+									<strong> Usability</strong>, and
+									<strong> Aesthetics</strong>.
+								</p>
+							</div>
+							<div className="border-[1px] border-border-color rounded-[10px] px-5 py-10 group">
+								<h4 className="text-lg text-primary mb-5 group-hover:text-secondary duration-300">
+									Proficient in using Git and GitHub
+								</h4>
+								<p>
+									<p>
+										I am proficient in using Git and GitHub
+										for version control and collaborative
+										development. This enables me to
+										effectively manage code repositories,
+										track changes, and work seamlessly in
+										team environments, ensuring smooth
+										project workflows.
+									</p>
 								</p>
 							</div>
 						</div>

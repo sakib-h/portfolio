@@ -33,5 +33,5 @@ li{
     @apply mb-2 last:mb-0
 }
 strong {
-    @apply font-bold
+    @apply font-bold capitalize
 }
