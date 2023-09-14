@@ -20,7 +20,7 @@ const Hero = () => {
 				<h4>Introduce</h4>
 			</div>
 			<div className="mb-[50px]">
-				<h1 className="text-[55px] md:text-[65px] lg:text-[75px] font-[300] mb-[50px]">
+				<h1 className="text-[55px] md:text-[60px] lg:text-[64px]  xl:text-[75px] font-[300] mb-[50px]">
 					Say Hi from Sakib,{' '}
 					<em className="text-secondary font-[500]">MERN</em> based
 					Full Stack Web Developer

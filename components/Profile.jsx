@@ -9,7 +9,6 @@ import {
 	AiOutlineMail,
 	AiOutlineSetting,
 } from 'react-icons/ai';
-import { SiFiverr } from 'react-icons/si';
 const Profile = () => {
 	return (
 		<div className=" my-[15px] p-8 flex flex-col items-center rounded-[30px] border-[1px] border-border-color">

@@ -1,11 +1,11 @@
-import { LiaComment } from 'react-icons/lia';
+import { AiOutlineDatabase } from 'react-icons/ai';
 const Portfolio = () => {
 	return (
 		<section
 			id="portfolio"
 			className="section">
 			<div className="section-header">
-				<LiaComment className="text-[16px] mr-2" />
+				<AiOutlineDatabase className="text-[16px] mr-2" />
 				<h4>Portfolio</h4>
 			</div>
 			<div className="mb-[50px]">

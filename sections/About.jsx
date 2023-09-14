@@ -24,12 +24,11 @@ const About = () => {
 					</p>
 					<p>
 						My journey in web development has been filled with
-						<strong> Challenges</strong>, but I approach them with
-						quiet confidence and a never-ending desire to learn.
-						I've been working on both the <strong>Front-End</strong>
-						, using tools like React / Next, and the{' '}
-						<strong>Back-End</strong> with Node.js, to create
-						dynamic web applications.
+						Challenges, but I approach them with quiet confidence
+						and a never-ending desire to learn. I've been working on
+						both the <strong>Front-End</strong>, using tools like
+						React / Next, and the <strong>Back-End</strong> with
+						Node.js, to create dynamic web applications.
 					</p>
 					<p>
 						I'm committed to staying up-to-date with the{' '}

@@ -1,5 +1,5 @@
 const Expertise = ({ title, data }) => {
-	console.log(title, data);
+
 	return (
 		<div className="mb-4">
 			<h6 className="mb-2 text-[16px]">{title}</h6>

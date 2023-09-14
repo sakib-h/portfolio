@@ -20,8 +20,8 @@ const Navbar = () => {
 				'resume',
 				'skills',
 				'portfolio',
-				'testimonials',
-				'contract',
+				'testimonial',
+				'contact',
 			]}
 			activeNavClass="is-active"
 			scrollDuration="500">
@@ -60,14 +60,14 @@ const Navbar = () => {
 				</Link>
 				<Link
 					className="cursor-pointer"
-					href="#testimonials"
-					title="Testimonials">
+					href="#testimonial"
+					title="Testimonial">
 					<LiaComment className="nav-icon" />
 				</Link>
 				<Link
 					className="cursor-pointer"
-					href="#contract"
-					title="Contract">
+					href="#contact"
+					title="Contact">
 					<AiOutlineMail className="nav-icon" />
 				</Link>
 			</nav>
