@@ -2,7 +2,6 @@ import { AiOutlineUser } from 'react-icons/ai';
 const About = () => {
 	return (
 		<section
-			className="section"
 			id="about">
 			<div className="section-header">
 				<AiOutlineUser className="text-[16px] mr-2" />

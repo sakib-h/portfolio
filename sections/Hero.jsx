@@ -1,5 +1,6 @@
 'use client';
 import { motion, useTime, useTransform } from 'framer-motion';
+import Link from 'next/link';
 import Image from 'next/image';
 import {
 	AiOutlineHome,
@@ -12,9 +13,7 @@ const Hero = () => {
 	const time = useTime();
 	const rotate = useTransform(time, [0, 5500], [0, 360], { clamp: false });
 	return (
-		<section
-			id="home"
-			className="section">
+		<section id="home">
 			<div className="section-header">
 				<AiOutlineHome className="text-[16px] mr-2" />
 				<h4>Introduce</h4>
@@ -75,7 +74,11 @@ const Hero = () => {
 							width={150}
 						/>
 					</motion.div>
-					<AiOutlineArrowDown className="absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] text-[40px] cursor-pointer hover:text-[48px] duration-[0.4s]" />
+					<Link
+						href="#portfolio"
+						className="absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] text-[40px] cursor-pointer hover:text-[48px] duration-[0.4s]">
+						<AiOutlineArrowDown />
+					</Link>
 				</div>
 			</div>
 		</section>

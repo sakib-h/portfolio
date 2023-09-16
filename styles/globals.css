@@ -20,8 +20,8 @@
 .nav-icon{
     @apply text-[20px] text-secondary-text mx-3
 }
-.section{
-    @apply min-h-screen pt-[150px]  flex flex-col
+section{
+    @apply min-h-screen w-full pt-[150px]  flex flex-col overflow-x-hidden
 }
 .section-header{
     @apply  flex items-center font-[300] w-max border-[1px] border-border-color text-[12px] mb-[50px] px-[20px] py-[9px] rounded-[30px] uppercase

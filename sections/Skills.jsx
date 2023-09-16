@@ -16,9 +16,7 @@ const Skills = () => {
 	const backend = ['Node', 'Express', 'Mongo DB', 'Firebase'];
 	const tools = ['Git', 'GitHub', 'Netlify', 'Figma', 'Sketch'];
 	return (
-		<section
-			id="skills"
-			className="section">
+		<section id="skills">
 			<div className="section-header">
 				<MdOutlineWeb className="text-[16px] mr-2" />
 				<h4>Skills</h4>

@@ -1,9 +1,7 @@
 import { IoBriefcaseOutline } from 'react-icons/io5';
 const Resume = () => {
 	return (
-		<section
-			className="section"
-			id="resume">
+		<section id="resume">
 			<div className="section-header">
 				<IoBriefcaseOutline className="text-[16px] mr-2" />
 				<h4>Resume</h4>
