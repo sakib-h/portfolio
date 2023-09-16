@@ -1,7 +1,6 @@
-'use client';
+import Slider from '@components/Slider';
 import { LiaComment } from 'react-icons/lia';
-import { Swiper, SwiperSlide } from 'swiper/react';
-// import 'swiper/css';
+
 const Testimonial = () => {
 	return (
 		<section id="testimonial">
@@ -16,12 +15,8 @@ const Testimonial = () => {
 				</h1>
 			</div>
 
-			<div>
-				<Swiper>
-					<SwiperSlide>Slide 1</SwiperSlide>
-					<SwiperSlide>Slide 2</SwiperSlide>
-					<SwiperSlide>Slide 3</SwiperSlide>
-				</Swiper>
+			<div className="w-full">
+				<Slider />
 			</div>
 		</section>
 	);
