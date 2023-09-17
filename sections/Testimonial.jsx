@@ -15,7 +15,7 @@ const Testimonial = () => {
 				</h1>
 			</div>
 
-			<div className="w-full">
+			<div className="w-full relative">
 				<Slider />
 			</div>
 		</section>

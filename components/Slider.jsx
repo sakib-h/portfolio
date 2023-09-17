@@ -18,11 +18,11 @@ const Slider = () => {
 				clickable: true,
 			}}
 			navigation={true}
-			autoplay={{
-				delay: 2500,
-				disableOnInteraction: false,
-			}}
-			loop={true}
+			// autoplay={{
+			// 	delay: 2500,
+			// 	disableOnInteraction: false,
+			// }}
+			// loop={true}
 			modules={[Pagination, Navigation, Autoplay]}
 			className="mySwiper">
 			<SwiperSlide className="rounded-[30px] border-[1px] border-border-color py-10 px-10">
