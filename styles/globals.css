@@ -7,6 +7,7 @@
 	scroll-behavior: smooth;
 }
 
+
 .container{
     @apply w-[90%] h-screen lg:w-full mx-auto lg:mx-10
 }
@@ -35,8 +36,10 @@ li{
 strong {
     @apply font-bold capitalize
 }
+.slider-container{
+    @apply rounded-[30px] border-[1px] border-border-color py-10 px-10 mb-[50px]
+}
 
-
-.swiper-button-prev::after, .swiper-button-next::after{
-    @apply text-[12px] text-secondary-text
+.swiper-pagination-bullet{
+   @apply !bg-primary !w-[10px] !h-[10px]
 }
