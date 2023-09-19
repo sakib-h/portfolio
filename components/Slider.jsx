@@ -125,9 +125,9 @@ const Slider = () => {
 						any project."
 					</p>
 					<Link
-						href="https://hoo-bank-modern-bank-app.netlify.app"
+						href="https://gpt-3-modern.netlify.app"
 						target="_blank"
-						title="Hoo Bank - Modern Bank App"
+						title="GPT-3 Modern AI Website"
 						className="cursor-pointer text-[14px]">
 						Project
 					</Link>
