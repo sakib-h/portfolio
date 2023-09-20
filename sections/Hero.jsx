@@ -30,7 +30,7 @@ const Hero = () => {
 				</p>
 			</div>
 			<div className="flex flex-col lg:flex-row justify-between gap-10 items-center mb-[50px]">
-				<div className="w-full grid grid-cols-3  gap-5 items-center justify-center">
+				<div className="w-full grid grid-cols-3  gap-5 items-center justify-between">
 					<div className="flex flex-col items-center">
 						<CountUp
 							end={3}

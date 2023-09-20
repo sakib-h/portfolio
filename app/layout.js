@@ -25,7 +25,7 @@ export default function RootLayout({ children }) {
 						<div className="lg:fixed lg:top-[50%] lg:translate-y-[-50%]">
 							<Profile />
 						</div>
-						<div className="w-full lg:ml-[450px] lg:mr-[100px] xl:mr-[110px]  overflow-hidden">
+						<div className="w-full lg:ml-[450px] xl:ml-[500px] lg:mr-[100px] xl:mr-[110px]  overflow-hidden">
 							{children}
 						</div>
 						<div className="hidden lg:inline-block lg:fixed lg:top-[50%] lg:translate-y-[-50%] lg:right-10">

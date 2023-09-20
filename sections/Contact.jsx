@@ -1,3 +1,4 @@
+import Form from '@components/Form';
 import { AiOutlineMail } from 'react-icons/ai';
 const Contact = () => {
 	return (
@@ -11,6 +12,10 @@ const Contact = () => {
 					Let's Work
 					<span className="text-secondary"> Together!</span>
 				</h1>
+				<h3 className="text-[24px] mb-[50px]">sakib100.sa@gmail.com</h3>
+				<div>
+					<Form />
+				</div>
 			</div>
 		</section>
 	);

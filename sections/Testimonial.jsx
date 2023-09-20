@@ -20,15 +20,15 @@ const Testimonial = () => {
 				<Slider />
 			</div>
 			<div>
-				<p className="text-[14px] mb-[30px]">
+				<p className="text-[14px] font-[300] mb-[50px]">
 					WORK WITH 20+ BRANDS WORLDWIDE
 				</p>
 
-				<div className="grid grid-cols-2 lg:grid-cols-4 gap-10">
+				<div className="grid grid-cols-3 lg:grid-cols-4 gap-y-20 justify-items-center lg:justify-items-start items-center">
 					<Image
 						src="/images/clients/client-1.png"
-						width={100}
-						height={100}
+						width={120}
+						height={120}
 						className="brightness-50 hover:brightness-90 cursor-pointer duration-300"
 					/>
 
