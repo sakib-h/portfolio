@@ -24,61 +24,61 @@ const Testimonial = () => {
 					WORK WITH 20+ BRANDS WORLDWIDE
 				</p>
 
-				<div className="grid grid-cols-2 lg:grid-cols-4 gap-10 justify-items-center">
+				<div className="grid grid-cols-2 lg:grid-cols-4 gap-10">
 					<Image
 						src="/images/clients/client-1.png"
 						width={100}
 						height={100}
-						className="brightness-50 hover:brightness-100 cursor-pointer duration-300"
+						className="brightness-50 hover:brightness-90 cursor-pointer duration-300"
 					/>
 
 					<Image
 						src="/images/clients/client-2.png"
 						width={100}
 						height={100}
-						className="brightness-50 hover:brightness-100 cursor-pointer duration-300"
+						className="brightness-50 hover:brightness-90 cursor-pointer duration-300"
 					/>
 
 					<Image
 						src="/images/clients/client-3.png"
 						width={100}
 						height={100}
-						className="brightness-50 hover:brightness-100 cursor-pointer duration-300"
+						className="brightness-50 hover:brightness-90 cursor-pointer duration-300"
 					/>
 
 					<Image
 						src="/images/clients/client-4.png"
 						width={100}
 						height={100}
-						className="brightness-50 hover:brightness-100 cursor-pointer duration-300"
+						className="brightness-50 hover:brightness-90 cursor-pointer duration-300"
 					/>
 
 					<Image
 						src="/images/clients/client-5.png"
 						width={100}
 						height={100}
-						className="brightness-50 hover:brightness-100 cursor-pointer duration-300"
+						className="brightness-50 hover:brightness-90 cursor-pointer duration-300"
 					/>
 
 					<Image
 						src="/images/clients/client-6.png"
 						width={100}
 						height={100}
-						className="brightness-50 hover:brightness-100 cursor-pointer duration-300"
+						className="brightness-50 hover:brightness-90 cursor-pointer duration-300"
 					/>
 
 					<Image
 						src="/images/clients/client-7.png"
 						width={100}
 						height={100}
-						className="brightness-50 hover:brightness-100 cursor-pointer duration-300"
+						className="brightness-50 hover:brightness-90 cursor-pointer duration-300"
 					/>
 
 					<Image
 						src="/images/clients/client-8.png"
 						width={100}
 						height={100}
-						className="brightness-50 hover:brightness-100 cursor-pointer duration-300"
+						className="brightness-50 hover:brightness-90 cursor-pointer duration-300"
 					/>
 				</div>
 			</div>
