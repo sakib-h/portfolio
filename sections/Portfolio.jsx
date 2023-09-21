@@ -6,7 +6,7 @@ import { AiOutlineDatabase } from 'react-icons/ai';
 import Link from 'next/link';
 const Portfolio = () => {
 	return (
-		<section id="portfolio">
+		<section id="portfolios">
 			<div className="section-header">
 				<AiOutlineDatabase className="text-[16px] mr-2" />
 				<h4>Portfolio</h4>

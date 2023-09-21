@@ -2,12 +2,10 @@
 import { motion, useTime, useTransform } from 'framer-motion';
 import Link from 'next/link';
 import Image from 'next/image';
-import {
-	AiOutlineHome,
-	AiOutlineArrowDown,
-	AiOutlineCalendar,
-} from 'react-icons/ai';
+import { AiOutlineHome, AiOutlineArrowDown } from 'react-icons/ai';
 import CountUp from 'react-countup';
+
+import Typewriter from 'typewriter-effect';
 
 const Hero = () => {
 	const time = useTime();
@@ -16,13 +14,24 @@ const Hero = () => {
 		<section id="home">
 			<div className="section-header">
 				<AiOutlineHome className="text-[16px] mr-2" />
-				<h4>Introduce</h4>
+				<h4>Introduction</h4>
 			</div>
 			<div className="mb-[50px]">
-				<h1 className="text-[55px] md:text-[60px] lg:text-[64px]  xl:text-[75px] font-[300] mb-[50px]">
+				<h1 className="text-[38px] md:text-[42px] lg:text-[48px]  xl:text-[60px] font-[300] mb-[50px]">
 					Say Hi from Sakib,{' '}
 					<em className="text-secondary font-[500]">MERN</em> based
-					Full Stack Web Developer
+					<Typewriter
+						options={{
+							strings: [
+								'Full Stack Developer',
+								'Competitive Programmer',
+								'Open-Source Enthusiast',
+							],
+							autoStart: true,
+							loop: true,
+							changeDelay: 300,
+						}}
+					/>
 				</h1>
 				<p className="text-secondary-text text-[16px]">
 					I design and code beautifully simple things and i love what

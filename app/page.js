@@ -1,3 +1,4 @@
+import Footer from '@components/Footer';
 import About from '@sections/About';
 import Contact from '@sections/Contact';
 import Hero from '@sections/Hero';
@@ -16,6 +17,7 @@ export default function Home() {
 			<Portfolio />
 			<Testimonial />
 			<Contact />
+			<Footer />
 		</>
 	);
 }

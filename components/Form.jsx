@@ -65,7 +65,7 @@ const Form = () => {
 
 				<div className="flex flex-col justify-start gap-2">
 					<div className="flex items-center gap-1">
-						<label for="budget">YOUR BUDGET $</label>
+						<label for="budget">YOUR BUDGET</label>
 						<span className="text-[12px] text-secondary-text">
 							(Optional)
 						</span>
