@@ -21,8 +21,8 @@ const Resume = () => {
 					</div>
 				</div>
 				<div className="col-span-12 xl:col-span-10">
-					<div className="relative border-l-[1px] border-[#333333] group mb-5">
-						<div className="pl-10 before:block before:absolute before:left-[-5px] before:top-[5px] before:w-[10px] before:h-[10px] before:rounded-full before:bg-[#656565] group-hover:before:bg-secondary duration-300">
+					<div className="relative ml-[5px] xl:ml-0 border-l-[1px] border-[#333333] group mb-5">
+						<div className="pl-10 before:block before:absolute before:left-[-5px] before:top-0 before:w-[10px] before:h-[10px] before:rounded-full before:bg-[#656565] group-hover:before:bg-secondary duration-300">
 							<h2 className="text-2xl group-hover:text-secondary duration-300">
 								FULL STACK DEVELOPER
 							</h2>
@@ -53,8 +53,8 @@ const Resume = () => {
 						</div>
 					</div>
 
-					<div className="relative border-l-[1px] border-[#333333] group">
-						<div className="pl-10 before:block before:absolute before:left-[-5px] before:top-[5px] before:w-[10px] before:h-[10px] before:rounded-full before:bg-[#656565] group-hover:before:bg-secondary duration-300">
+					<div className="relative ml-[5px] xl:ml-0 border-l-[1px] border-[#333333] group">
+						<div className="pl-10 before:block before:absolute before:left-[-5px] before:top-0 before:w-[10px] before:h-[10px] before:rounded-full before:bg-[#656565] group-hover:before:bg-secondary duration-300">
 							<h2 className="text-2xl group-hover:text-secondary duration-300">
 								GRAPHICS DESIGNER
 							</h2>
@@ -103,8 +103,8 @@ const Resume = () => {
 					</div>
 				</div>
 				<div className="col-span-12 xl:col-span-10">
-					<div className="relative border-l-[1px] border-[#333333] group">
-						<div className="pl-10 before:block before:absolute before:left-[-5px] before:top-[5px] before:w-[10px] before:h-[10px] before:rounded-full before:bg-[#656565] group-hover:before:bg-secondary duration-300">
+					<div className="relative ml-[5px] xl:ml-0 border-l-[1px] border-[#333333] group">
+						<div className="pl-10 before:block before:absolute before:left-[-5px] before:top-0 before:w-[10px] before:h-[10px] before:rounded-full before:bg-[#656565] group-hover:before:bg-secondary duration-300">
 							<h2 className="text-2xl group-hover:text-secondary duration-300">
 								B. SC. IN COMPUTER SCIENCE & ENGINEERING
 							</h2>

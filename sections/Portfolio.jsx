@@ -1,6 +1,4 @@
 import Image from 'next/image';
-import Portfolio_1 from '../public/images/portfolio/portfolio-1.jpg';
-import Portfolio_2 from '../public/images/portfolio/portfolio-2.jpg';
 import Portfolio_3 from '../public/images/portfolio/portfolio-3.jpg';
 import { AiOutlineDatabase } from 'react-icons/ai';
 import Link from 'next/link';
@@ -17,15 +15,17 @@ const Portfolio = () => {
 					<span className="text-secondary"> Projects</span>
 				</h1>
 				<div className="grid grid-cols-1 gap-10 relative">
-					<div className="grid grid-cols-3 gap-5 items-center group">
-						<div className="col-span-1">
+					<div className="flex flex-col md:flex-row gap-5 md:items-start  lg:items-center group">
+						<div className="basis-[40%] xl:basis-[30%]">
 							<Image
-								src={Portfolio_2}
+								src="/images/portfolio/portfolio-2.jpg"
+								width={100}
+								height={100}
 								alt="Restaurantly"
 								className="rounded-lg shadow-lg w-full h-auto object-contain"
 							/>
 						</div>
-						<div className="col-span-2 flex flex-col gap-3">
+						<div className="basis-[60%] xl:basis-[70%] flex flex-col gap-3">
 							<Link
 								href="https://restaurantly-modern-app.netlify.app/"
 								className="text-[24px] cursor-pointer group-hover:text-secondary duration-300"
@@ -58,15 +58,17 @@ const Portfolio = () => {
 						</div>
 					</div>
 
-					<div className="grid grid-cols-3 gap-5 items-center group">
-						<div className="col-span-1">
+					<div className="flex flex-col md:flex-row gap-5 md:items-start  lg:items-center group">
+						<div className="basis-[40%] xl:basis-[30%]">
 							<Image
-								src={Portfolio_1}
+								src="/images/portfolio/portfolio-1.jpg"
+								width={100}
+								height={100}
 								alt="Hoo Bank"
 								className="rounded-lg shadow-lg w-full h-auto object-contain"
 							/>
 						</div>
-						<div className="col-span-2 flex flex-col gap-3">
+						<div className="basis-[60%] xl:basis-[70%] flex flex-col gap-3">
 							<Link
 								href="https://hoo-bank-modern-bank-app.netlify.app"
 								className="text-[24px] cursor-pointer group-hover:text-secondary duration-300"
@@ -97,15 +99,17 @@ const Portfolio = () => {
 						</div>
 					</div>
 
-					<div className="grid grid-cols-3 gap-5 items-center group">
-						<div className="col-span-1">
+					<div className="flex flex-col md:flex-row gap-5 md:items-start  lg:items-center group">
+						<div className="basis-[40%] xl:basis-[30%]">
 							<Image
-								src={Portfolio_3}
+								src="/images/portfolio/portfolio-3.jpg"
+								width={100}
+								height={100}
 								alt="GPT-3"
 								className="rounded-lg shadow-lg w-full h-auto object-contain"
 							/>
 						</div>
-						<div className="col-span-2 flex flex-col gap-3">
+						<div className="basis-[60%] xl:basis-[70%] flex flex-col gap-3">
 							<Link
 								href="https://gpt-3-modern.netlify.app/"
 								className="text-[24px] cursor-pointer group-hover:text-secondary duration-300"

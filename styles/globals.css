@@ -9,7 +9,7 @@
 
 @layer components{
     .container{
-        @apply w-[90%] h-screen lg:w-full mx-auto lg:mx-10
+        @apply w-[90%] h-screen mx-auto
     }
     .social-icon{
         @apply relative h-[50px] w-[50px] rounded-full border-[1px] border-border-color  cursor-pointer mx-2
