@@ -33,7 +33,10 @@ const Skills = () => {
 							As a MERN (MongoDB, Express.js, React, Node.js)
 							stack developer, I possess a comprehensive skill set
 							to create robust and{' '}
-							<strong>Dynamic Web Applications</strong>.
+							<strong className="group-hover:text-secondary duration-300">
+								Dynamic Web Applications
+							</strong>
+							.
 						</p>
 						<div className="grid grid-cols-1 xl:grid-cols-2 gap-5">
 							<div className="border-[1px] border-border-color rounded-[10px] px-5 py-10 group">
@@ -42,11 +45,20 @@ const Skills = () => {
 								</h4>
 								<p>
 									My proficiency in MongoDB allows me to
-									design <strong>Efficient</strong> and{' '}
-									<strong>Scalable</strong> databases, while
-									Express.js enables me to build{' '}
-									<strong>Secure</strong> and seamless
-									back-end systems.
+									design{' '}
+									<strong className="group-hover:text-secondary duration-300">
+										Efficient
+									</strong>{' '}
+									and{' '}
+									<strong className="group-hover:text-secondary duration-300">
+										Scalable
+									</strong>{' '}
+									databases, while Express.js enables me to
+									build{' '}
+									<strong className="group-hover:text-secondary duration-300">
+										Secure
+									</strong>{' '}
+									and seamless back-end systems.
 								</p>
 							</div>
 							<div className="border-[1px] border-border-color rounded-[10px] px-5 py-10 group">
@@ -56,8 +68,11 @@ const Skills = () => {
 								<p>
 									With React & Next, I craft intuitive and
 									interactive user interfaces, providing a
-									rich and <strong>engaging</strong> front-end
-									experience.
+									rich and{' '}
+									<strong className="group-hover:text-secondary duration-300">
+										engaging
+									</strong>{' '}
+									front-end experience.
 								</p>
 							</div>
 							<div className="border-[1px] border-border-color rounded-[10px] px-5 py-10 group">
@@ -67,7 +82,10 @@ const Skills = () => {
 								</h4>
 								<p>
 									My expertise in Node.js empowers me to
-									develop fast and scalable server-side
+									develop fast and scalable{' '}
+									<strong className="group-hover:text-secondary duration-300">
+										Server-Side
+									</strong>{' '}
 									applications, ensuring smooth communication
 									between the front-end and back-end.
 								</p>
@@ -79,10 +97,15 @@ const Skills = () => {
 								<p>
 									I am adept at leveraging the full potential
 									of the MERN stack to deliver{' '}
-									<strong>High-Quality</strong>,{' '}
-									<strong>Performance-Driven</strong> web
-									solutions tailored to meet the unique needs
-									of each project.
+									<strong className="group-hover:text-secondary duration-300">
+										High-Quality
+									</strong>
+									,{' '}
+									<strong className="group-hover:text-secondary duration-300">
+										Performance-Driven
+									</strong>{' '}
+									web solutions tailored to meet the unique
+									needs of each project.
 								</p>
 							</div>
 							<div className="border-[1px] border-border-color rounded-[10px] px-5 py-10 group">
@@ -91,14 +114,29 @@ const Skills = () => {
 								</h4>
 								<p>
 									Through a combination of strong
-									<strong> Problem-Solving</strong> skills and
-									a deep understanding of modern web
-									development practices, I excel in creating
-									applications that not only meet client
-									expectations but also exceed them in terms
-									of <strong>Functionality</strong>,
-									<strong> Usability</strong>, and
-									<strong> Aesthetics</strong>.
+									<strong className="group-hover:text-secondary duration-300">
+										{' '}
+										Problem-Solving
+									</strong>{' '}
+									skills and a deep understanding of modern
+									web development practices, I excel in
+									creating applications that not only meet
+									client expectations but also exceed them in
+									terms of{' '}
+									<strong className="group-hover:text-secondary duration-300">
+										Functionality
+									</strong>
+									,
+									<strong className="group-hover:text-secondary duration-300">
+										{' '}
+										Usability
+									</strong>
+									, and
+									<strong className="group-hover:text-secondary duration-300">
+										{' '}
+										Aesthetics
+									</strong>
+									.
 								</p>
 							</div>
 							<div className="border-[1px] border-border-color rounded-[10px] px-5 py-10 group">
@@ -106,12 +144,18 @@ const Skills = () => {
 									Proficient in using Git and GitHub
 								</h4>
 								<p>
-									I am proficient in using Git and GitHub for
-									version control and collaborative
-									development. This enables me to effectively
-									manage code repositories, track changes, and
-									work seamlessly in team environments,
-									ensuring smooth project workflows.
+									I am proficient in using Git and GitHub for{' '}
+									<strong className="group-hover:text-secondary duration-300">
+										version control
+									</strong>{' '}
+									and collaborative development. This enables
+									me to effectively manage code repositories,
+									track changes, and work seamlessly in team
+									environments, ensuring{' '}
+									<strong className="group-hover:text-secondary duration-300">
+										smooth
+									</strong>{' '}
+									project workflows.
 								</p>
 							</div>
 						</div>

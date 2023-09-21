@@ -22,14 +22,14 @@ const Resume = () => {
 				</div>
 				<div className="col-span-12 xl:col-span-10">
 					<div className="relative border-l-[1px] border-[#333333] group mb-5">
-						<div className="pl-10 before:block before:absolute before:left-[-5px] before:top-0 before:w-[10px] before:h-[10px] before:rounded-full before:bg-[#656565] group-hover:before:bg-secondary duration-300">
-							<span className="text-secondary-text text-base group-hover:text-secondary duration-300">
-								DEC 2020 – PRESENT
-							</span>
-							<h2 className="text-2xl my-4">
+						<div className="pl-10 before:block before:absolute before:left-[-5px] before:top-[5px] before:w-[10px] before:h-[10px] before:rounded-full before:bg-[#656565] group-hover:before:bg-secondary duration-300">
+							<h2 className="text-2xl group-hover:text-secondary duration-300">
 								FULL STACK DEVELOPER
 							</h2>
-							<ul className="text-secondary-text text-[13px] ml-[14px] list-disc">
+							<p className="text-secondary-text text-[12px] my-4">
+								DEC 2020 – PRESENT
+							</p>
+							<ul className="text-secondary-text text-[14px] ml-[14px] list-disc">
 								<li>
 									Code Full Stack project using HTML, CSS,
 									Bootstrap, JavaScript, React.js, Next.js,
@@ -54,12 +54,14 @@ const Resume = () => {
 					</div>
 
 					<div className="relative border-l-[1px] border-[#333333] group">
-						<div className="pl-10 before:block before:absolute before:left-[-5px] before:top-0 before:w-[10px] before:h-[10px] before:rounded-full before:bg-[#656565] group-hover:before:bg-secondary duration-300">
-							<span className="text-secondary-text text-base group-hover:text-secondary duration-300">
+						<div className="pl-10 before:block before:absolute before:left-[-5px] before:top-[5px] before:w-[10px] before:h-[10px] before:rounded-full before:bg-[#656565] group-hover:before:bg-secondary duration-300">
+							<h2 className="text-2xl group-hover:text-secondary duration-300">
+								GRAPHICS DESIGNER
+							</h2>
+							<p className="text-secondary-text text-[12px] my-4">
 								JUNE 2019 – PRESENT
-							</span>
-							<h2 className="text-2xl my-4">GRAPHICS DESIGNER</h2>
-							<ul className="text-secondary-text text-[13px] ml-[14px] list-disc">
+							</p>
+							<ul className="text-secondary-text text-[14px] ml-[14px] list-disc">
 								<li>
 									Created digital image files for use in
 									digital and traditional printing methods.
@@ -101,47 +103,17 @@ const Resume = () => {
 					</div>
 				</div>
 				<div className="col-span-12 xl:col-span-10">
-					<div className="relative border-l-[1px] border-[#333333] group mb-5">
-						<div className="pl-10 before:block before:absolute before:left-[-5px] before:top-0 before:w-[10px] before:h-[10px] before:rounded-full before:bg-[#656565] group-hover:before:bg-secondary duration-300">
-							<span className="text-secondary-text text-base group-hover:text-secondary duration-300">
-								2022 - PRESENT
-							</span>
-							<h2 className="text-2xl mt-4 mb-2">
+					<div className="relative border-l-[1px] border-[#333333] group">
+						<div className="pl-10 before:block before:absolute before:left-[-5px] before:top-[5px] before:w-[10px] before:h-[10px] before:rounded-full before:bg-[#656565] group-hover:before:bg-secondary duration-300">
+							<h2 className="text-2xl group-hover:text-secondary duration-300">
 								B. SC. IN COMPUTER SCIENCE & ENGINEERING
 							</h2>
-							<div className="flex flex-col gap-2 justify-start text-secondary-text text-[13px]">
+							<p className="text-secondary-text text-[12px] my-4">
+								2022 - PRESENT
+							</p>
+							<div className="flex flex-col gap-2 justify-start text-secondary-text text-[14px]">
 								<em>DAFFODIL INTERNATIONAL UNIVERSITY</em>
 								<span>CGPA 3.42</span>
-							</div>
-						</div>
-					</div>
-
-					<div className="relative border-l-[1px] border-[#333333] group mb-5">
-						<div className="pl-10 before:block before:absolute before:left-[-5px] before:top-0 before:w-[10px] before:h-[10px] before:rounded-full before:bg-[#656565] group-hover:before:bg-secondary duration-300">
-							<span className="text-secondary-text text-base group-hover:text-secondary duration-300">
-								2015 - 2017
-							</span>
-							<h2 className="text-2xl mt-4 mb-2">
-								HIGHER SECONDARY SCHOOL CERTIFICATE
-							</h2>
-							<div className="flex flex-col gap-2 justify-start text-secondary-text text-[13px]">
-								<em>GOVT. KADAM RASUL COLLEGE</em>
-								<span>Passed with a GPA of 4.25</span>
-							</div>
-						</div>
-					</div>
-
-					<div className="relative border-l-[1px] border-[#333333] group">
-						<div className="pl-10 before:block before:absolute before:left-[-5px] before:top-0 before:w-[10px] before:h-[10px] before:rounded-full before:bg-[#656565] group-hover:before:bg-secondary duration-300">
-							<span className="text-secondary-text text-base group-hover:text-secondary duration-300">
-								2013 – 2015
-							</span>
-							<h2 className="text-2xl mt-4 mb-2">
-								SECONDARY SCHOOL CERTIFICATE
-							</h2>
-							<div className="flex flex-col gap-2 justify-start text-secondary-text text-[13px]">
-								<em>B. M. UNION HIGH SCHOOL & COLLEGE</em>
-								<span>Passed with a GPA of 4.61</span>
 							</div>
 						</div>
 					</div>
