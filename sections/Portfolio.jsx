@@ -2,6 +2,7 @@ import Image from 'next/image';
 import Portfolio_3 from '../public/images/portfolio/portfolio-3.jpg';
 import { AiOutlineDatabase } from 'react-icons/ai';
 import Link from 'next/link';
+
 const Portfolio = () => {
 	return (
 		<section id="portfolios">
@@ -19,8 +20,8 @@ const Portfolio = () => {
 						<div className="basis-[40%] xl:basis-[30%]">
 							<Image
 								src="/images/portfolio/portfolio-2.jpg"
-								width={100}
-								height={100}
+								width={500}
+								height={500}
 								alt="Restaurantly"
 								className="rounded-lg shadow-lg w-full h-auto object-contain"
 							/>
@@ -62,8 +63,8 @@ const Portfolio = () => {
 						<div className="basis-[40%] xl:basis-[30%]">
 							<Image
 								src="/images/portfolio/portfolio-1.jpg"
-								width={100}
-								height={100}
+								width={500}
+								height={500}
 								alt="Hoo Bank"
 								className="rounded-lg shadow-lg w-full h-auto object-contain"
 							/>
@@ -103,8 +104,8 @@ const Portfolio = () => {
 						<div className="basis-[40%] xl:basis-[30%]">
 							<Image
 								src="/images/portfolio/portfolio-3.jpg"
-								width={100}
-								height={100}
+								width={500}
+								height={500}
 								alt="GPT-3"
 								className="rounded-lg shadow-lg w-full h-auto object-contain"
 							/>

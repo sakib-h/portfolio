@@ -10,6 +10,7 @@ import { IoBriefcaseOutline } from 'react-icons/io5';
 import { MdOutlineWeb } from 'react-icons/md';
 import { LiaComment } from 'react-icons/lia';
 import ScrollspyNav from 'react-scrollspy-nav';
+import { motion } from 'framer-motion';
 
 const Navbar = () => {
 	return (
@@ -25,7 +26,11 @@ const Navbar = () => {
 			]}
 			activeNavClass="is-active"
 			scrollDuration="500">
-			<nav className="w-max flex flex-col py-[24px] gap-6 items-center border-[1px] border-border-color rounded-[30px]">
+			<motion.nav
+				className="w-max flex flex-col py-[24px] gap-6 items-center border-[1px] border-border-color rounded-[30px]"
+				initial={{ opacity: 0, x: 200 }}
+				animate={{ opacity: 1, x: 0 }}
+				transition={{ duration: 0.5, delay: 0.3 }}>
 				<Link
 					className="cursor-pointer"
 					href="#home"
@@ -70,7 +75,7 @@ const Navbar = () => {
 					title="Contact">
 					<AiOutlineMail className="nav-icon" />
 				</Link>
-			</nav>
+			</motion.nav>
 		</ScrollspyNav>
 	);
 };

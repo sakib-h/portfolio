@@ -26,7 +26,7 @@ export default function RootLayout({ children }) {
 						<div className="hidden md:flex md:fixed md:bottom-0 md:left-10">
 							<SideBar />
 						</div>
-						<div className="w-full md:w-[85%] xl:w-[70%] md:mx-auto overflow-hidden">
+						<div className="w-full md:w-[80%] xl:w-[70%] md:mx-auto overflow-hidden">
 							{children}
 						</div>
 						<div className="hidden md:flex md:fixed md:top-[50%] md:translate-y-[-50%] md:right-10">

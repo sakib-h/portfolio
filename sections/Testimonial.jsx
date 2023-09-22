@@ -24,11 +24,11 @@ const Testimonial = () => {
 					WORK WITH 20+ BRANDS WORLDWIDE
 				</p>
 
-				<div className="grid grid-cols-3 lg:grid-cols-4 gap-y-20 justify-items-center lg:justify-items-start items-center">
+				<div className="grid grid-cols-3 lg:grid-cols-4 gap-y-20 justify-items-center  items-center">
 					<Image
 						src="/images/clients/client-1.png"
-						width={120}
-						height={120}
+						width={100}
+						height={100}
 						className="brightness-50 hover:brightness-90 cursor-pointer duration-300"
 					/>
 
