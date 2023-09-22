@@ -1,5 +1,4 @@
 import Navbar from '@components/Navbar';
-import Profile from '@components/Profile';
 import SideBar from '@components/SideBar';
 import '@styles/globals.css';
 import { Inter } from 'next/font/google';
@@ -23,7 +22,7 @@ export default function RootLayout({ children }) {
 				suppressHydrationWarning={true}>
 				<main className="container">
 					<div className="w-full relative lg:flex flex-row justify-between items-center">
-						<div className="hidden md:flex md:fixed md:bottom-0 md:left-10">
+						<div className="hidden md:flex md:fixed md:top-[50%] md:translate-y-[-50%] md:left-10">
 							<SideBar />
 						</div>
 						<div className="w-full md:w-[80%] xl:w-[70%] md:mx-auto overflow-hidden">

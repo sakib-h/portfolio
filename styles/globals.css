@@ -15,7 +15,7 @@
         @apply relative   cursor-pointer
     }
     .profile-icon{
-        @apply   text-2xl text-secondary-text hover:text-primary duration-300
+        @apply   text-[20px] text-secondary-text hover:text-primary duration-300 mx-3
     }
 
     .nav-icon{

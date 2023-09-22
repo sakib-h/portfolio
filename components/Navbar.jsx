@@ -1,16 +1,16 @@
 'use client';
+import { motion } from 'framer-motion';
 import Link from 'next/link';
 import {
-	AiOutlineHome,
-	AiOutlineUser,
 	AiOutlineDatabase,
+	AiOutlineHome,
 	AiOutlineMail,
+	AiOutlineUser,
 } from 'react-icons/ai';
 import { IoBriefcaseOutline } from 'react-icons/io5';
-import { MdOutlineWeb } from 'react-icons/md';
 import { LiaComment } from 'react-icons/lia';
+import { MdOutlineWeb } from 'react-icons/md';
 import ScrollspyNav from 'react-scrollspy-nav';
-import { motion } from 'framer-motion';
 
 const Navbar = () => {
 	return (
@@ -28,8 +28,8 @@ const Navbar = () => {
 			scrollDuration="500">
 			<motion.nav
 				className="w-max flex flex-col py-[24px] gap-6 items-center border-[1px] border-border-color rounded-[30px]"
-				initial={{ opacity: 0, x: 200 }}
-				animate={{ opacity: 1, x: 0 }}
+				initial={{ opacity: 0, y: -500 }}
+				animate={{ opacity: 1, y: 0 }}
 				transition={{ duration: 0.8, delay: 0.3, type: 'spring' }}>
 				<Link
 					className="cursor-pointer"
