@@ -27,7 +27,7 @@ const About = () => {
 					/>
 				</div>
 				<div className="lg:basis-[70%]">
-					<div className="flex flex-col gap-5 text-secondary-text text-[16px] mb-[30px]">
+					<div className="flex flex-col gap-5 text-secondary-text text-[16px] mb-[50px]">
 						<p>
 							For the past three years, I've been working as a{' '}
 							<strong>MERN Stack </strong>
@@ -44,11 +44,6 @@ const About = () => {
 							using tools like React / Next, and the{' '}
 							<strong>Back-End</strong> with Node.js, to create
 							dynamic web applications.
-						</p>
-						<p>
-							I'm committed to staying up-to-date with the{' '}
-							<strong>Latest Trends</strong> in web development to
-							provide top-notch solutions.
 						</p>
 					</div>
 					<div className="button">

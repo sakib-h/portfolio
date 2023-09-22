@@ -17,44 +17,44 @@ const SideBar = () => {
 			<Link
 				href="https://github.com/sakib-h"
 				target="_blank"
-				title="github">
-				<VscGithubAlt className="profile-icon" />
+				title="Github">
+				<VscGithubAlt className="sidebar-icon" />
 			</Link>
 			<Link
 				href="https://www.linkedin.com/in/abdullah-al-sakib/"
 				target="_blank"
-				title="linkedin">
-				<BiLogoLinkedin className="profile-icon" />
+				title="Linkedin">
+				<BiLogoLinkedin className="sidebar-icon" />
 			</Link>
 			<Link
 				href="https://twitter.com/Sakib_365"
 				target="_blank"
-				title="twitter">
-				<FiTwitter className="profile-icon" />
+				title="Twitter">
+				<FiTwitter className="sidebar-icon" />
 			</Link>
 			<Link
 				href="https://www.facebook.com/sakib.hasan1998/"
 				target="_blank"
-				title="facebook">
-				<FaFacebookF className="profile-icon" />
+				title="Facebook">
+				<FaFacebookF className="sidebar-icon" />
 			</Link>
 			<Link
 				href="https://www.instagram.com/__sakibhasan/"
 				target="_blank"
-				title="instagram">
-				<AiOutlineInstagram className="profile-icon" />
+				title="Instagram">
+				<AiOutlineInstagram className="sidebar-icon" />
 			</Link>
 			<Link
 				href="https://discord.gg/HPkkKEwn"
 				target="_blank"
-				title="instagram">
-				<BiLogoDiscordAlt className="profile-icon" />
+				title="Discord">
+				<BiLogoDiscordAlt className="sidebar-icon" />
 			</Link>
 			<Link
 				href="https://t.me/sakib_ha"
 				target="_blank"
-				title="instagram">
-				<LiaTelegramPlane className="profile-icon" />
+				title="Telegram">
+				<LiaTelegramPlane className="sidebar-icon" />
 			</Link>
 		</motion.div>
 	);

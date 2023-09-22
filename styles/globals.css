@@ -14,7 +14,7 @@
     .social-icon{
         @apply relative   cursor-pointer
     }
-    .profile-icon{
+    .sidebar-icon{
         @apply   text-[20px] text-secondary-text hover:text-primary duration-300 mx-3
     }
 

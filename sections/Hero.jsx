@@ -1,9 +1,6 @@
 'use client';
-import { motion, useTime, useTransform } from 'framer-motion';
-import Link from 'next/link';
-import Image from 'next/image';
-import { AiOutlineHome, AiOutlineArrowDown } from 'react-icons/ai';
-import CountUp from 'react-countup';
+import { useTime, useTransform } from 'framer-motion';
+import { AiOutlineHome } from 'react-icons/ai';
 import Typewriter from 'typewriter-effect';
 
 const Hero = () => {
@@ -17,7 +14,6 @@ const Hero = () => {
 			</div>
 			<div className="mb-[50px]">
 				<div className="flex flex-col lg:flex-row gap-10 items-center justify-between">
-
 					<div className="lg:basis-[70%]">
 						<h1 className="text-[38px] md:text-[42px] lg:text-[48px]  xl:text-[60px] font-[300] mb-[50px]">
 							Hello, I'm{' '}
@@ -41,7 +37,7 @@ const Hero = () => {
 					</div>
 				</div>
 			</div>
-			<div className="flex flex-col lg:flex-row justify-between gap-10 items-center mb-[50px]">
+			{/* <div className="flex flex-col lg:flex-row justify-between gap-10 items-center mb-[50px]">
 				<div className="w-full grid grid-cols-3  gap-5 items-center justify-between">
 					<div className="flex flex-col items-center">
 						<CountUp
@@ -92,7 +88,7 @@ const Hero = () => {
 						<AiOutlineArrowDown />
 					</Link>
 				</div>
-			</div>
+			</div> */}
 		</section>
 	);
 };
