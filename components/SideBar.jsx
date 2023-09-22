@@ -12,7 +12,7 @@ const SideBar = () => {
 			className="flex flex-col gap-10 items-center"
 			initial={{ opacity: 0, y: 500 }}
 			animate={{ opacity: 1, y: 0 }}
-			transition={{ duration: 0.5, delay: 0.8 }}>
+			transition={{ duration: 0.8, delay: 1.1, type: 'spring' }}>
 			<Link
 				href="https://github.com/sakib-h"
 				target="_blank"

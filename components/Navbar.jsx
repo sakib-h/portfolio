@@ -30,7 +30,7 @@ const Navbar = () => {
 				className="w-max flex flex-col py-[24px] gap-6 items-center border-[1px] border-border-color rounded-[30px]"
 				initial={{ opacity: 0, x: 200 }}
 				animate={{ opacity: 1, x: 0 }}
-				transition={{ duration: 0.5, delay: 0.3 }}>
+				transition={{ duration: 0.8, delay: 0.3, type: 'spring' }}>
 				<Link
 					className="cursor-pointer"
 					href="#home"
