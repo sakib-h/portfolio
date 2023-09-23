@@ -15,14 +15,14 @@
         @apply relative   cursor-pointer
     }
     .sidebar-icon{
-        @apply   text-[20px] text-secondary-text hover:text-primary duration-300 mx-3
+        @apply   text-[20px] text-secondary-text hover:text-primary duration-300
     }
 
     .nav-icon{
         @apply text-[20px] text-secondary-text mx-3
     }
     section{
-        @apply min-h-screen w-full pt-[100px]  flex flex-col overflow-x-hidden
+        @apply min-h-screen w-full pt-[120px]  flex flex-col justify-center overflow-x-hidden
     }
     .section-header{
         @apply  flex items-center font-[300] w-max border-[1px] border-border-color text-[12px] mb-[50px] px-[20px] py-[9px] rounded-[30px] uppercase

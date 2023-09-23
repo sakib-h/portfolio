@@ -10,10 +10,11 @@ import { VscGithubAlt } from 'react-icons/vsc';
 const SideBar = () => {
 	return (
 		<motion.div
-			className="flex flex-col gap-6 items-center border-[1px] border-border-color rounded-[30px] py-[24px]"
+			className="flex flex-col gap-6 items-center"
 			initial={{ opacity: 0, y: 500 }}
 			animate={{ opacity: 1, y: 0 }}
 			transition={{ duration: 0.8, delay: 1.1, type: 'spring' }}>
+			<p className="text-[0.8rem] text-secondary-text rotate-90 mb-6">Follow Me</p>
 			<Link
 				href="https://github.com/sakib-h"
 				target="_blank"
@@ -56,6 +57,7 @@ const SideBar = () => {
 				title="Telegram">
 				<LiaTelegramPlane className="sidebar-icon" />
 			</Link>
+			<div className="h-[100px] w-[3px] bg-border-color" />
 		</motion.div>
 	);
 };
