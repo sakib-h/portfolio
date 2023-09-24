@@ -1,14 +1,22 @@
 'use client';
 import { useState, useEffect } from 'react';
-import LoadingScreen from '@components/LoadingScreen';
 const LoadingProvider = ({ children }) => {
 	const [loading, setLoading] = useState(true);
 	useEffect(() => {
-		window.addEventListener('load', () => {
-			setLoading(false);
-		});
+		setLoading(false);
 	}, []);
 
-	return <>{loading ? <LoadingScreen /> : children}</>;
+	return (
+		<>
+			{' '}
+			{loading ? (
+				<div className="min-h-screen flex justify-center items-center">
+					<span className="loader" />
+				</div>
+			) : (
+				children
+			)}{' '}
+		</>
+	);
 };
 export default LoadingProvider;
