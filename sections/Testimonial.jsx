@@ -29,6 +29,7 @@ const Testimonial = () => {
 						src="/images/clients/client-1.png"
 						width={100}
 						height={100}
+						alt="brand-logo"
 						className="brightness-50 hover:brightness-90 cursor-pointer duration-300"
 					/>
 
@@ -36,6 +37,7 @@ const Testimonial = () => {
 						src="/images/clients/client-2.png"
 						width={100}
 						height={100}
+						alt="brand-logo"
 						className="brightness-50 hover:brightness-90 cursor-pointer duration-300"
 					/>
 
@@ -43,6 +45,7 @@ const Testimonial = () => {
 						src="/images/clients/client-3.png"
 						width={100}
 						height={100}
+						alt="brand-logo"
 						className="brightness-50 hover:brightness-90 cursor-pointer duration-300"
 					/>
 
@@ -50,6 +53,7 @@ const Testimonial = () => {
 						src="/images/clients/client-4.png"
 						width={100}
 						height={100}
+						alt="brand-logo"
 						className="brightness-50 hover:brightness-90 cursor-pointer duration-300"
 					/>
 
@@ -57,6 +61,7 @@ const Testimonial = () => {
 						src="/images/clients/client-5.png"
 						width={100}
 						height={100}
+						alt="brand-logo"
 						className="brightness-50 hover:brightness-90 cursor-pointer duration-300"
 					/>
 
@@ -64,6 +69,7 @@ const Testimonial = () => {
 						src="/images/clients/client-6.png"
 						width={100}
 						height={100}
+						alt="brand-logo"
 						className="brightness-50 hover:brightness-90 cursor-pointer duration-300"
 					/>
 
@@ -71,6 +77,7 @@ const Testimonial = () => {
 						src="/images/clients/client-7.png"
 						width={100}
 						height={100}
+						alt="brand-logo"
 						className="brightness-50 hover:brightness-90 cursor-pointer duration-300"
 					/>
 
@@ -78,6 +85,7 @@ const Testimonial = () => {
 						src="/images/clients/client-8.png"
 						width={100}
 						height={100}
+						alt="brand-logo"
 						className="brightness-50 hover:brightness-90 cursor-pointer duration-300"
 					/>
 				</div>

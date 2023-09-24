@@ -1,43 +1,50 @@
 'use client';
-import { useTime, useTransform } from 'framer-motion';
+import CountUp from 'react-countup';
+import Link from 'next/link';
 import { AiOutlineHome } from 'react-icons/ai';
 import Typewriter from 'typewriter-effect';
-
 const Hero = () => {
-	const time = useTime();
-	const rotate = useTransform(time, [0, 5500], [0, 360], { clamp: false });
 	return (
-		<section id="home">
+		<section
+			id="home"
+			className="">
 			<div className="section-header">
 				<AiOutlineHome className="text-[16px] mr-2" />
 				<h4>Introduction</h4>
 			</div>
 			<div className="mb-[50px]">
-				<div className="flex flex-col lg:flex-row gap-10 items-center justify-between">
-					<div className="lg:basis-[70%]">
-						<h1 className="text-[38px] md:text-[42px] lg:text-[48px]  xl:text-[60px] font-[300] mb-[50px]">
-							Hello, I'm{' '}
-							<em className="text-secondary font-[500]">
-								Sakib Hasan
-							</em>{' '}
-							<br />
-							<Typewriter
-								options={{
-									strings: [
-										'Full Stack Developer',
-										'Competitive Programmer',
-										'Open-Source Enthusiast',
-									],
-									autoStart: true,
-									loop: true,
-									changeDelay: 300,
-								}}
-							/>
-						</h1>
+				<div className="flex flex-col gap-10 justify-start">
+					<h1 className="text-[38px] md:text-[42px] lg:text-[48px]  xl:text-[60px] font-[300] mb-[50px]">
+						Hello, I'm{' '}
+						<em className="text-secondary font-[500]">
+							Sakib Hasan
+						</em>{' '}
+						<br />
+						<Typewriter
+							options={{
+								strings: [
+									'Full Stack Developer',
+									'Competitive Programmer',
+									'Open-Source Enthusiast',
+								],
+								autoStart: true,
+								loop: true,
+								changeDelay: 300,
+							}}
+						/>
+					</h1>
+
+					<div className="button">
+						<Link
+							className="max-w-max  text-alternative text-[16px] font-[400] rounded-[30px] py-2 px-10 bg-secondary hover:bg-transparent  hover:text-secondary  border-[2px] border-secondary duration-300 gap-2"
+							href="https://www.fiverr.com/s/z5jw2R"
+							target="_blank">
+							DOWNLOAD RESUME
+						</Link>
 					</div>
 				</div>
 			</div>
-			{/* <div className="flex flex-col lg:flex-row justify-between gap-10 items-center mb-[50px]">
+			<div className="flex flex-col lg:flex-row justify-between gap-10 items-center mb-[50px]">
 				<div className="w-full grid grid-cols-3  gap-5 items-center justify-between">
 					<div className="flex flex-col items-center">
 						<CountUp
@@ -73,22 +80,7 @@ const Hero = () => {
 						</div>
 					</div>
 				</div>
-				<div className="border-[1px] border-border-color rounded-full p-4 relative">
-					<motion.div style={{ rotate }}>
-						<Image
-							src="/images/extras/round-text.png"
-							alt="Resume"
-							height={150}
-							width={150}
-						/>
-					</motion.div>
-					<Link
-						href="#portfolio"
-						className="absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] text-[40px] cursor-pointer hover:text-[48px] duration-[0.4s]">
-						<AiOutlineArrowDown />
-					</Link>
-				</div>
-			</div> */}
+			</div>
 		</section>
 	);
 };

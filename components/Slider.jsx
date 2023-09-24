@@ -30,7 +30,7 @@ const Slider = () => {
 			spaceBetween={50}
 			loop={true}
 			modules={[Autoplay, Pagination]}
-			lazy={true}>
+			lazy="true">
 			<SwiperSlide className="slider-container">
 				<div className="client-profile flex gap-3 items-center mb-[35px]">
 					<Image
