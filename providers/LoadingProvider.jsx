@@ -8,14 +8,13 @@ const LoadingProvider = ({ children }) => {
 
 	return (
 		<>
-			{' '}
 			{loading ? (
 				<div className="min-h-screen flex justify-center items-center">
 					<span className="loader" />
 				</div>
 			) : (
 				children
-			)}{' '}
+			)}
 		</>
 	);
 };

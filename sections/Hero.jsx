@@ -13,8 +13,8 @@ const Hero = () => {
 				<h4>Introduction</h4>
 			</div>
 			<div className="mb-[50px]">
-				<div className="flex flex-col gap-10 justify-start">
-					<h1 className="text-[38px] md:text-[42px] lg:text-[48px]  xl:text-[60px] font-[300] mb-[50px]">
+				<div className="flex flex-col gap-16 justify-start">
+					<h1 className="text-[38px] md:text-[42px] lg:text-[48px]  xl:text-[60px] font-[300]">
 						Hello, I'm{' '}
 						<em className="text-secondary font-[500]">
 							Sakib Hasan
@@ -34,11 +34,19 @@ const Hero = () => {
 						/>
 					</h1>
 
+					<p className="text-secondary-text text-[16px]">
+						Passionate MERN stack developer with expertise in
+						building robust, scalable, and interactive web
+						applications. Proficient in MongoDB, Express.js, React,
+						and Node.js. Let's turn your ideas into dynamic digital
+						solutions!
+					</p>
+
 					<div className="button">
 						<Link
 							className="max-w-max  text-alternative text-[16px] font-[400] rounded-[30px] py-2 px-10 bg-secondary hover:bg-transparent  hover:text-secondary  border-[2px] border-secondary duration-300 gap-2"
-							href="https://www.fiverr.com/s/z5jw2R"
-							target="_blank">
+							href="./files/resume.pdf"
+							>
 							DOWNLOAD RESUME
 						</Link>
 					</div>
