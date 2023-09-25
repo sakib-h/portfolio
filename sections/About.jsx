@@ -47,9 +47,12 @@ const About = () => {
 						</p>
 					</div>
 					<div className="button">
-						<Link className="max-w-max flex justify-center items-center text-alternative text-[16px] font-[400] rounded-[30px] py-2 px-10 bg-secondary hover:bg-transparent  hover:text-secondary  border-[2px] border-secondary duration-300 gap-2" href="https://www.fiverr.com/s/z5jw2R" target="_blank">
+						<Link
+							className="max-w-max flex justify-center items-center text-alternative text-[16px] font-[400] rounded-[30px] py-2 px-10 bg-secondary hover:bg-transparent  hover:text-secondary  border-[2px] border-secondary duration-300 gap-2"
+							href="https://www.fiverr.com/s/z5jw2R"
+							target="_blank">
 							<AiOutlineMail />
-							HIRE ME
+							Hire Me
 						</Link>
 					</div>
 				</div>

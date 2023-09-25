@@ -1,18 +1,27 @@
-'use client';
-import CountUp from 'react-countup';
+'use client'
+import Counter from '@components/Counter'
 import Link from 'next/link';
 import { AiOutlineHome } from 'react-icons/ai';
 import Typewriter from 'typewriter-effect';
+import { motion } from 'framer-motion';
 const Hero = () => {
 	return (
 		<section
 			id="home"
 			className="">
-			<div className="section-header">
+			<motion.div
+				className="section-header"
+				initial={{ y: -300, opacity: 0 }}
+				animate={{ y: 0, opacity: 1 }}
+				transition={{ duration: 0.8, type: 'spring' }}>
 				<AiOutlineHome className="text-[16px] mr-2" />
 				<h4>Introduction</h4>
-			</div>
-			<div className="mb-[50px]">
+			</motion.div>
+			<motion.div
+				className="mb-[100px]"
+				initial={{ x: -1000, opacity: 0 }}
+				animate={{ x: 0, opacity: 1 }}
+				transition={{ duration: 0.8, type: 'spring' }}>
 				<div className="flex flex-col gap-16 justify-start">
 					<h1 className="text-[38px] md:text-[42px] lg:text-[48px]  xl:text-[60px] font-[300]">
 						Hello, I'm{' '}
@@ -44,51 +53,26 @@ const Hero = () => {
 
 					<div className="button">
 						<Link
-							className="max-w-max  text-alternative text-[16px] font-[400] rounded-[30px] py-2 px-10 bg-secondary hover:bg-transparent  hover:text-secondary  border-[2px] border-secondary duration-300 gap-2"
-							href="./files/resume.pdf"
-							>
-							DOWNLOAD RESUME
+							className="max-w-max  text-alternative text-[16px] font-[400] rounded-[30px] py-2 px-10 bg-secondary hover:bg-transparent  hover:text-secondary  border-[2px] border-secondary duration-300 gap-2 "
+							href="/files/resume.pdf"
+							download="Sakib_Hasan_Resume">
+							Download Resume
 						</Link>
 					</div>
 				</div>
-			</div>
-			<div className="flex flex-col lg:flex-row justify-between gap-10 items-center mb-[50px]">
-				<div className="w-full grid grid-cols-3  gap-5 items-center justify-between">
-					<div className="flex flex-col items-center">
-						<CountUp
-							end={3}
-							duration={1}
-							className="text-[48px] md:text-[56px] xl:text-[72px] leading-[56px] text-secondary mb-4"
-						/>
-						<div className="flex flex-col items-center text-[14px] text-secondary-text font-[400]">
-							<span>YEARS</span>
-							<span>Experience</span>
-						</div>
-					</div>
-					<div className="flex flex-col items-center">
-						<CountUp
-							end={52}
-							duration={1}
-							className="text-[48px] md:text-[56px] xl:text-[72px] leading-[56px] text-secondary mb-4"
-						/>
-						<div className="flex flex-col items-center text-[14px] text-secondary-text font-[400]">
-							<span>PROJECTS</span>
-							<span>COMPLETED</span>
-						</div>
-					</div>
-					<div className="flex flex-col items-center">
-						<CountUp
-							end={27}
-							duration={1}
-							className="text-[48px] md:text-[56px] xl:text-[72px] leading-[56px] text-secondary mb-4"
-						/>
-						<div className="flex flex-col items-center text-[14px] text-secondary-text font-[400]">
-							<span>HAPPY</span>
-							<span>CLIENTS</span>
-						</div>
-					</div>
+			</motion.div>
+			<motion.div
+				className="flex flex-col lg:flex-row justify-between gap-10 items-center mb-[50px]"
+				initial={{ x: 1000, opacity: 0 }}
+				animate={{ x: 0, opacity: 1 }}
+				transition={{ duration: 0.8, type: 'spring' }}>
+				<div className="w-full grid grid-cols-1 md:grid-cols-2  xl:grid-cols-4  gap-10 items-center">
+					<Counter value="3" title="Years of Experience"/>
+					<Counter value="150" title="Hours of Code Time"/>
+					<Counter value="50" title="Projects Completed"/>
+					<Counter value="20" title="Happy Clients"/>
 				</div>
-			</div>
+			</motion.div>
 		</section>
 	);
 };
