@@ -1,11 +1,12 @@
-import Footer from '@components/Footer';
-import About from '@sections/About';
-import Contact from '@sections/Contact';
-import Hero from '@sections/Hero';
-import Portfolio from '@sections/Portfolio';
-import Resume from '@sections/Resume';
-import Skills from '@sections/Skills';
-import Testimonial from '@sections/Testimonial';
+import dynamic from 'next/dynamic'
+const Footer = dynamic(()=>import('@components/Footer'));
+const About = dynamic(()=>import('@sections/About')) ;
+const Contact = dynamic(()=>import('@sections/Contact'));
+const Hero = dynamic(()=>import('@sections/Hero'),{ssr:false});
+const Portfolio = dynamic(()=>import('@sections/Portfolio'));
+const Resume = dynamic(()=>import('@sections/Resume')) ;
+const Skills = dynamic(()=>import('@sections/Skills')) ;
+const Testimonial = dynamic(()=>import('@sections/Testimonial')) ;
 
 export default function Home() {
 	return (
