@@ -3,21 +3,22 @@ import Counter from '@components/Counter'
 import Link from 'next/link';
 import { AiOutlineHome } from 'react-icons/ai';
 import Typewriter from 'typewriter-effect';
-import { motion } from 'framer-motion';
+import { LazyMotion, domAnimation, m  } from 'framer-motion';
 const Hero = () => {
 	return (
 		<section
 			id="home"
-			className="">
-			<motion.div
+>
+			<LazyMotion features={domAnimation}>
+			<m.div
 				className="section-header"
 				initial={{ y: -300, opacity: 0 }}
 				animate={{ y: 0, opacity: 1 }}
 				transition={{ duration: 0.8, type: 'spring' }}>
 				<AiOutlineHome className="text-[16px] mr-2" />
 				<h4>Introduction</h4>
-			</motion.div>
-			<motion.div
+			</m.div>
+			<m.div
 				className="mb-[100px]"
 				initial={{ x: -1000, opacity: 0 }}
 				animate={{ x: 0, opacity: 1 }}
@@ -60,8 +61,8 @@ const Hero = () => {
 						</Link>
 					</div>
 				</div>
-			</motion.div>
-			<motion.div
+			</m.div>
+			<m.div
 				className="flex flex-col lg:flex-row justify-between gap-10 items-center mb-[50px]"
 				initial={{ x: 1000, opacity: 0 }}
 				animate={{ x: 0, opacity: 1 }}
@@ -72,7 +73,8 @@ const Hero = () => {
 					<Counter value="50" title="Projects Completed"/>
 					<Counter value="20" title="Happy Clients"/>
 				</div>
-			</motion.div>
+			</m.div>
+			</LazyMotion>
 		</section>
 	);
 };
