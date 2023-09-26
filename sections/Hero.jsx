@@ -5,6 +5,22 @@ import { AiOutlineHome } from 'react-icons/ai';
 import Typewriter from 'typewriter-effect';
 import { LazyMotion, domAnimation, m  } from 'framer-motion';
 const Hero = () => {
+	const handleDownload = async () => {
+		try {
+		  const response = await fetch('/files/resume.pdf');
+		  const blob = await response.blob();
+		  const url = window.URL.createObjectURL(blob);
+		  const a = document.createElement('a');
+		  a.href = url;
+		  a.download = 'resume.pdf';
+		  a.style.display = 'none';
+		  document.body.appendChild(a);
+		  a.click();
+		  document.body.removeChild(a);
+		} catch (error) {
+		  console.error('Error downloading file:', error);
+		}
+	  };
 	return (
 		<section
 			id="home"
@@ -53,11 +69,8 @@ const Hero = () => {
 					</p>
 
 					<div className="button">
-						<Link
-							href="/files/resume.pdf"
-							download="Sakib_Hasan_Resume">
-							<button className="max-w-max  text-alternative text-[16px] font-[400] rounded-[30px] py-2 px-10 bg-secondary hover:bg-transparent  hover:text-secondary  border-[2px] border-secondary duration-300 gap-2 ">Download Resume</button>
-						</Link>
+							<button className="max-w-max  text-alternative text-[16px] font-[400] rounded-[30px] py-2 px-10 bg-secondary hover:bg-transparent  hover:text-secondary  border-[2px] border-secondary duration-300 gap-2 " onClick={handleDownload}>Download Resume</button>
+
 					</div>
 
 				</div>
