@@ -4,20 +4,6 @@ import { LazyMotion, domAnimation, m } from "framer-motion";
 const Resume = () => {
     const animateFromLeft = {
         initial: {
-            x: -100,
-            opacity: 0,
-        },
-        animate: {
-            x: 0,
-            opacity: 1,
-            transition: {
-                duration: 0.5,
-                type: "spring",
-            },
-        },
-    };
-    const animateFromRight = {
-        initial: {
             x: 100,
             opacity: 0,
         },
@@ -25,7 +11,23 @@ const Resume = () => {
             x: 0,
             opacity: 1,
             transition: {
-                duration: 0.5,
+                delay: 0.5,
+                duration: 0.8,
+                type: "spring",
+            },
+        },
+    };
+    const animateFromRight = {
+        initial: {
+            x: -100,
+            opacity: 0,
+        },
+        animate: {
+            x: 0,
+            opacity: 1,
+            transition: {
+                delay: 0.5,
+                duration: 0.8,
                 type: "spring",
             },
         },
@@ -52,12 +54,7 @@ const Resume = () => {
                             </h3>
                         </div>
                     </div>
-                    <div
-                        className="col-span-12 xl:col-span-10"
-                        initial="initial"
-                        whileInView="animate"
-                        variants={animateFromLeft}
-                    >
+                    <div className="col-span-12 xl:col-span-10">
                         <m.div
                             className="relative ml-[5px] xl:ml-0 border-l-[1px] border-[#333333] group mb-5"
                             initial="initial"
@@ -96,7 +93,12 @@ const Resume = () => {
                             </div>
                         </m.div>
 
-                        <div className="relative ml-[5px] xl:ml-0 border-l-[1px] border-[#333333] group">
+                        <m.div
+                            className="relative ml-[5px] xl:ml-0 border-l-[1px] border-[#333333] group"
+                            initial="initial"
+                            whileInView="animate"
+                            variants={animateFromRight}
+                        >
                             <div className="pl-10 before:block before:absolute before:left-[-5px] before:top-0 before:w-[10px] before:h-[10px] before:rounded-full before:bg-[#656565] group-hover:before:bg-secondary duration-300">
                                 <h2 className="text-2xl group-hover:text-secondary duration-300">
                                     GRAPHICS DESIGNER
@@ -136,7 +138,7 @@ const Resume = () => {
                                     </li>
                                 </ul>
                             </div>
-                        </div>
+                        </m.div>
                     </div>
                 </div>
 
@@ -149,7 +151,12 @@ const Resume = () => {
                         </div>
                     </div>
                     <div className="col-span-12 xl:col-span-10">
-                        <div className="relative ml-[5px] xl:ml-0 border-l-[1px] border-[#333333] group">
+                        <m.div
+                            className="relative ml-[5px] xl:ml-0 border-l-[1px] border-[#333333] group"
+                            initial="initial"
+                            whileInView="animate"
+                            variants={animateFromLeft}
+                        >
                             <div className="pl-10 before:block before:absolute before:left-[-5px] before:top-0 before:w-[10px] before:h-[10px] before:rounded-full before:bg-[#656565] group-hover:before:bg-secondary duration-300">
                                 <h2 className="text-2xl group-hover:text-secondary duration-300">
                                     B. SC. IN COMPUTER SCIENCE & ENGINEERING
@@ -162,7 +169,7 @@ const Resume = () => {
                                     <span>CGPA 3.42</span>
                                 </div>
                             </div>
-                        </div>
+                        </m.div>
                     </div>
                 </div>
             </LazyMotion>
