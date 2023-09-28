@@ -16,7 +16,6 @@ const Form = () => {
                         name="Full-Name"
                         id="full_name"
                         placeholder="Full Name"
-                        className="input-box"
                         required
                     />
                 </div>
@@ -31,7 +30,6 @@ const Form = () => {
                         name="email"
                         id="email"
                         placeholder="Enter Your Email"
-                        className="input-box"
                         required
                     />
                 </div>
@@ -48,7 +46,6 @@ const Form = () => {
                         name="phone"
                         id="phone"
                         placeholder="Your Phone Number"
-                        className="input-box"
                     />
                 </div>
 
@@ -62,7 +59,6 @@ const Form = () => {
                         name="subject"
                         id="subject"
                         placeholder="Subject"
-                        className="input-box"
                         required
                     />
                 </div>
@@ -79,8 +75,7 @@ const Form = () => {
                         name="budget"
                         id="budget"
                         min="0"
-                        placeholder="A range Budget htmlFor your Project"
-                        className="input-box"
+                        placeholder="Budget for your Project"
                     />
                 </div>
             </div>
@@ -96,7 +91,7 @@ const Form = () => {
                     name="message"
                     id="message"
                     placeholder="Write your message here ..."
-                    className="input-box h-[150px]"
+                    className="input-box h-[100px]"
                     wrap="hard"
                     maxLength="1200"
                 />
