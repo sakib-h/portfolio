@@ -11,7 +11,7 @@ const Resume = () => {
             x: 0,
             opacity: 1,
             transition: {
-                delay: 0.5,
+                delay: 0.3,
                 duration: 0.8,
                 type: "spring",
             },
@@ -26,7 +26,7 @@ const Resume = () => {
             x: 0,
             opacity: 1,
             transition: {
-                delay: 0.5,
+                delay: 0.3,
                 duration: 0.8,
                 type: "spring",
             },
