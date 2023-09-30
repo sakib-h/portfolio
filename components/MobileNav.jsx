@@ -10,20 +10,49 @@ import {
 } from "react-icons/ai";
 import { IoBriefcaseOutline } from "react-icons/io5";
 import { LiaComment } from "react-icons/lia";
-import { MdOutlineWeb, MdMenuOpen } from "react-icons/md";
+import { MdOutlineWeb, MdMenuOpen, MdOutlineClose } from "react-icons/md";
 import ScrollspyNav from "react-scrollspy-nav";
 const MobileNav = () => {
     const [open, setOpen] = useState(false);
     return (
         <div className="relative">
             <LazyMotion features={domAnimation}>
-                <MdMenuOpen
-                    layout
-                    onClick={() => setOpen((prev) => !prev)}
-                    className={`${
-                        open ? "rotate-180" : "rotate-0"
-                    } absolute right-2 top-2 text-[32px] text-secondary-text cursor-pointer z-50`}
-                />
+                <AnimatePresence>
+                    <div className="absolute right-5 top-2 text-[32px] text-secondary-text cursor-pointer z-50">
+                        {open ? (
+                            <m.div
+                                initial={{ opacity: 0, x: 500 }}
+                                animate={{ opacity: 1, x: 0 }}
+                                exit={{ opacity: 0, x: 500 }}
+                                transition={{
+                                    duration: 1,
+                                    type: "spring",
+                                }}
+                            >
+                                <MdOutlineClose
+                                    onClick={() => setOpen(false)}
+                                />
+                            </m.div>
+                        ) : (
+                            <m.div
+                                initial={{ opacity: 0, x: 500 }}
+                                animate={{ opacity: 1, x: 0 }}
+                                exit={{ opacity: 0, x: 500 }}
+                                transition={{
+                                    duration: 1,
+                                    type: "spring",
+                                }}
+                            >
+                                <MdMenuOpen onClick={() => setOpen(true)} />
+                            </m.div>
+                        )}
+                    </div>
+                </AnimatePresence>
+                <m.div
+                    animate={{ opacity: [1, 0, 1] }}
+                    transition={{ duration: 0.5 }}
+                ></m.div>
+
                 <AnimatePresence>
                     {open && (
                         <ScrollspyNav
@@ -40,12 +69,12 @@ const MobileNav = () => {
                             scrollDuration="500"
                         >
                             <m.nav
-                                className="absolute top-20 right-2 w-max flex flex-col py-[24px] gap-6 items-center border-[1px] border-border-color rounded-[30px]"
+                                className="absolute top-20 right-5 w-max flex flex-col py-[24px] gap-6 items-center border-[1px] border-border-color rounded-[30px]"
                                 initial={{ opacity: 0, x: 500 }}
                                 animate={{ opacity: 1, x: 0 }}
                                 exit={{ opacity: 0, x: 500 }}
                                 transition={{
-                                    duration: 0.8,
+                                    duration: 1,
                                     type: "spring",
                                 }}
                             >

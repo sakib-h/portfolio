@@ -3,7 +3,7 @@ const Form = () => {
         <form
             action="mailto:sakib100.sa@gmail.com"
             method="post"
-            enctype="text/plain"
+            encType="text/plain"
         >
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-10">
                 <div className="flex flex-col justify-start gap-2">
