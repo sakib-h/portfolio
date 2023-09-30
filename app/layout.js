@@ -33,7 +33,7 @@ export default function RootLayout({ children }) {
                             <div className="hidden md:flex md:fixed md:top-[50%] md:translate-y-[-50%] md:right-10">
                                 <Navbar />
                             </div>
-                            <div className="md:hidden fixed top-3 right-3">
+                            <div className="md:hidden fixed top-3 right-3 z-[999]">
                                 <MobileNav />
                             </div>
                         </div>
