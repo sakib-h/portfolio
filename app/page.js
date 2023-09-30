@@ -10,7 +10,7 @@ const Testimonial = dynamic(() => import("@sections/Testimonial"));
 
 export default function Home() {
     return (
-        <>
+        <div className="w-full md:w-[80%] xl:w-[70%] md:mx-auto overflow-hidden">
             <Hero />
             <About />
             <Resume />
@@ -19,6 +19,6 @@ export default function Home() {
             <Testimonial />
             <Contact />
             <Footer />
-        </>
+        </div>
     );
 }

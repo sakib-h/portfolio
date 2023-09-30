@@ -11,7 +11,7 @@ const SideBar = () => {
     return (
         <LazyMotion features={domAnimation}>
             <m.div
-                className="flex flex-col gap-6 items-center"
+                className="hidden md:flex md:fixed bottom-0 md:left-10 flex-col gap-6 items-center"
                 initial={{ opacity: 0, y: 500 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.8, delay: 1.1, type: "spring" }}

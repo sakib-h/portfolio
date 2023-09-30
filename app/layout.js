@@ -1,6 +1,6 @@
-import MobileNav from "@components/MobileNav";
-import Navbar from "@components/Navbar";
-import SideBar from "@components/SideBar";
+import dynamic from "next/dynamic";
+const Navbar = dynamic(() => import("@components/Navbar"));
+const SideBar = dynamic(() => import("@components/SideBar"));
 import LoadingProvider from "@providers/LoadingProvider";
 import "@styles/globals.css";
 import { Inter } from "next/font/google";
@@ -24,18 +24,9 @@ export default function RootLayout({ children }) {
                 <main className="container">
                     <LoadingProvider>
                         <div className="w-full relative lg:flex flex-row justify-between items-center">
-                            <div className="hidden md:flex md:fixed bottom-0 md:left-10">
-                                <SideBar />
-                            </div>
-                            <div className="w-full md:w-[80%] xl:w-[70%] md:mx-auto overflow-hidden">
-                                {children}
-                            </div>
-                            <div className="hidden md:flex md:fixed md:top-[50%] md:translate-y-[-50%] md:right-10">
-                                <Navbar />
-                            </div>
-                            <div className="md:hidden fixed top-3 right-3 z-[999]">
-                                <MobileNav />
-                            </div>
+                            <SideBar />
+                            {children}
+                            <Navbar />
                         </div>
                     </LoadingProvider>
                 </main>
