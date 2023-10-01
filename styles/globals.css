@@ -21,7 +21,8 @@
         @apply text-[20px] text-secondary-text mx-3;
     }
 
-    .is-active > .nav-icon {
+    .is-active > .nav-icon,
+    .is-active > span {
         @apply text-secondary duration-300;
     }
 

@@ -77,7 +77,7 @@ const Navbar = () => {
                                         title="Home"
                                     >
                                         <AiOutlineHome className="nav-icon" />{" "}
-                                        Home
+                                        <span>Home</span>
                                     </Link>
 
                                     <Link
@@ -86,7 +86,7 @@ const Navbar = () => {
                                         title="About"
                                     >
                                         <AiOutlineUser className="nav-icon" />{" "}
-                                        About
+                                        <span>About</span>
                                     </Link>
                                     <Link
                                         className="flex flex-row gap-2 items-center cursor-pointer"
@@ -94,7 +94,7 @@ const Navbar = () => {
                                         title="Resume"
                                     >
                                         <IoBriefcaseOutline className="nav-icon" />{" "}
-                                        Resume
+                                        <span>Resume</span>
                                     </Link>
 
                                     <Link
@@ -103,7 +103,7 @@ const Navbar = () => {
                                         title="Skills"
                                     >
                                         <MdOutlineWeb className="nav-icon" />{" "}
-                                        Skills
+                                        <span>Skills</span>
                                     </Link>
                                     <Link
                                         className="flex flex-row gap-2 items-center cursor-pointer"
@@ -111,7 +111,7 @@ const Navbar = () => {
                                         title="Portfolio"
                                     >
                                         <AiOutlineDatabase className="nav-icon" />{" "}
-                                        Portfolio
+                                        <span>Portfolio</span>
                                     </Link>
                                     <Link
                                         className="flex flex-row gap-2 items-center cursor-pointer"
@@ -119,7 +119,7 @@ const Navbar = () => {
                                         title="Testimonial"
                                     >
                                         <LiaComment className="nav-icon" />{" "}
-                                        Testimonial
+                                        <span>Testimonial</span>
                                     </Link>
                                     <Link
                                         className="flex flex-row gap-2 items-center cursor-pointer"
@@ -127,7 +127,7 @@ const Navbar = () => {
                                         title="Contact"
                                     >
                                         <AiOutlineMail className="nav-icon" />{" "}
-                                        Contact
+                                        <span>Contact</span>
                                     </Link>
                                 </m.nav>
                             </ScrollspyNav>

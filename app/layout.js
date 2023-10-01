@@ -1,6 +1,7 @@
 import dynamic from "next/dynamic";
 const Navbar = dynamic(() => import("@components/Navbar"));
 const SideBar = dynamic(() => import("@components/SideBar"));
+const ScrollToTop = dynamic(() => import("@components/ScrollToTop"));
 import LoadingProvider from "@providers/LoadingProvider";
 import "@styles/globals.css";
 import { Inter } from "next/font/google";
@@ -27,6 +28,7 @@ export default function RootLayout({ children }) {
                             <SideBar />
                             {children}
                             <Navbar />
+                            <ScrollToTop />
                         </div>
                     </LoadingProvider>
                 </main>
