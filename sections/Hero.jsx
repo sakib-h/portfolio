@@ -90,7 +90,7 @@ const Hero = () => {
                     </div>
                 </m.div>
                 <m.div
-                    className="flex flex-col lg:flex-row justify-between gap-10 items-center mb-[50px]"
+                    className="flex flex-col lg:flex-row justify-between gap-10 items-center mb-[3rem]"
                     initial={{ x: 1000, opacity: 0 }}
                     animate={{ x: 0, opacity: 1 }}
                     transition={{ duration: 0.8, type: "spring" }}

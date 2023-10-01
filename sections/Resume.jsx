@@ -40,8 +40,8 @@ const Resume = () => {
                     <IoBriefcaseOutline className="text-[1rem] mr-2" />
                     <h4>Resume</h4>
                 </div>
-                <div className="mb-[50px]">
-                    <h1 className="text-[2.4rem] md:text-[2.6rem] lg:text-[3rem] font-[300] mb-[50px]">
+                <div className="mb-[3rem]">
+                    <h1 className="text-[2.4rem] md:text-[2.6rem] lg:text-[3rem] font-[300] mb-[3rem]">
                         Education &
                         <span className="text-secondary"> Experience</span>
                     </h1>
@@ -54,7 +54,7 @@ const Resume = () => {
                             </h3>
                         </div>
                     </div>
-                    <div className="col-span-12 xl:col-span-10">
+                    <div className="col-span-12 xl:col-span-10 gap-10">
                         <m.div
                             className="relative ml-[5px] xl:ml-0 border-l-[1px] border-[#333333] group mb-5"
                             initial="initial"
@@ -142,7 +142,7 @@ const Resume = () => {
                     </div>
                 </div>
 
-                <div className="grid gap-4 grid-cols-12 mb-[50px]">
+                <div className="grid gap-4 grid-cols-12 mb-[3rem]">
                     <div className="col-span-12 xl:col-span-2">
                         <div className="text-left mb-4 before:block before:w-24 before:h-[3px] before:mb-3 before:rounded-sm  before:bg-secondary">
                             <h3 className="text-xl text-secondary-text">

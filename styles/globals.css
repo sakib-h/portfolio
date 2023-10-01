@@ -30,7 +30,7 @@
         @apply min-h-screen w-full pt-[120px]  flex flex-col justify-center overflow-x-hidden;
     }
     .section-header {
-        @apply flex items-center font-[300] w-max border-[1px] border-border-color text-[0.8rem] mb-[50px] px-[20px] py-[9px] rounded-[30px] uppercase;
+        @apply flex items-center font-[300] w-max border-[1px] border-border-color text-[0.8rem] mb-[3rem] px-[20px] py-[9px] rounded-[30px] uppercase;
     }
 
     li {
@@ -40,7 +40,7 @@
         @apply font-bold capitalize;
     }
     .slider-container {
-        @apply rounded-[30px] border-[1px] border-border-color py-10 px-10 mb-[50px];
+        @apply rounded-[30px] border-[1px] border-border-color py-10 px-10 mb-[3rem];
     }
 
     input,

@@ -11,8 +11,8 @@ const Portfolio = () => {
                     <AiOutlineDatabase className="text-[1rem] mr-2" />
                     <h4>Portfolio</h4>
                 </div>
-                <div className="mb-[50px]">
-                    <h1 className="text-[2.4rem] md:text-[2.6rem] lg:text-[3rem] font-[300] mb-[50px]">
+                <div className="mb-[3rem]">
+                    <h1 className="text-[2.4rem] md:text-[2.6rem] lg:text-[3rem] font-[300] mb-[3rem]">
                         Featured
                         <span className="text-secondary"> Projects</span>
                     </h1>

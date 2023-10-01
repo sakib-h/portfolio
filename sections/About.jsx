@@ -9,12 +9,12 @@ const About = () => {
                 <h4>About</h4>
             </div>
             <div>
-                <h1 className="text-[2.4rem] md:text-[2.6rem] lg:text-[3rem] font-[300] mb-[50px]">
+                <h1 className="text-[2.4rem] md:text-[2.6rem] lg:text-[3rem] font-[300] mb-[3rem]">
                     In the Realm of the WEB, Every Masterpiece begins with a
                     <span className="text-secondary"> Compelling Story</span>
                 </h1>
             </div>
-            <div className="mb-[50px] flex flex-col lg:flex-row gap-10 items-center">
+            <div className="mb-[3rem] flex flex-col lg:flex-row gap-10 items-center">
                 <div className="image-area lg:basis-[30%]">
                     <Image
                         src="/images/personal/sakib-hasan.png"
@@ -27,7 +27,7 @@ const About = () => {
                     />
                 </div>
                 <div className="lg:basis-[70%]">
-                    <div className="flex flex-col gap-5 text-secondary-text text-[1rem] mb-[50px]">
+                    <div className="flex flex-col gap-5 text-secondary-text text-[1rem] mb-[3rem]">
                         <p>
                             For the past three years, I've been working as a{" "}
                             <strong>MERN Stack </strong>

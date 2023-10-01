@@ -22,9 +22,9 @@ const Skills = () => {
                 <h4>Skills</h4>
             </div>
 
-            <div className="mb-[50px]">
-                <div>
-                    <h1 className="text-[2.4rem] md:text-[2.6rem] lg:text-[3rem] font-[300] mb-[50px]">
+            <div className="mb-[3rem]">
+                <div className="mb-[3rem]">
+                    <h1 className="text-[2.4rem] md:text-[2.6rem] lg:text-[3rem] font-[300] mb-[3rem]">
                         Get to
                         <span className="text-secondary"> Know Me</span>
                     </h1>
