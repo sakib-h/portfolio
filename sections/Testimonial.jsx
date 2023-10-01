@@ -6,11 +6,11 @@ const Testimonial = () => {
     return (
         <section id="testimonial">
             <div className="section-header">
-                <LiaComment className="text-[16px] mr-2" />
+                <LiaComment className="text-[1rem] mr-2" />
                 <h4>Testimonial</h4>
             </div>
             <div className="mb-[50px]">
-                <h1 className="text-[38px] md:text-[42px] lg:text-[48px] font-[300] mb-[50px]">
+                <h1 className="text-[2.4rem] md:text-[2.6rem] lg:text-[3rem] font-[300] mb-[50px]">
                     Trusted by
                     <span className="text-secondary"> 20+ Clients</span>
                 </h1>
@@ -20,12 +20,10 @@ const Testimonial = () => {
                 <Slider />
             </div>
             <div>
-                <p className="text-[14px] font-[300] mb-[50px]">
+                <p className="text-[1rem] font-[300] mb-[50px]">
                     WORK WITH 20+ BRANDS WORLDWIDE
                 </p>
-                <div
-                    className="grid grid-cols-3 lg:grid-cols-4 gap-y-20 justify-items-center  items-center"
-                >
+                <div className="grid grid-cols-3 lg:grid-cols-4 gap-y-20 justify-items-center  items-center">
                     <Image
                         src="/images/clients/client-1.png"
                         width={100}

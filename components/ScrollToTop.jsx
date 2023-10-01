@@ -25,7 +25,7 @@ const ScrollToTop = () => {
                 <AnimatePresence>
                     {showBtn && (
                         <m.div
-                            className="p-3 text-secondary-text bg-main border-[1px] border-border-color rounded-[10px] cursor-pointer text-[20px]"
+                            className="p-3 text-secondary-text bg-main border-[1px] border-border-color rounded-[10px] cursor-pointer text-[1rem]"
                             initial={{ opacity: 0, x: 100 }}
                             animate={{ opacity: 1, x: 0 }}
                             exit={{ opacity: 0, x: 100 }}

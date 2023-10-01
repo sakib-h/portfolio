@@ -25,7 +25,7 @@ const Navbar = () => {
                     <div className="absolute right-5 top-2 z-50">
                         {open ? (
                             <div
-                                className="p-2 rounded-full bg-main border-[1px] border-border-color cursor-pointer text-border-color text-[24px] hover:border-secondary duration-300 group"
+                                className="p-2 rounded-full bg-main border-[1px] border-border-color cursor-pointer text-border-color text-[1.5rem] hover:border-secondary duration-300 group"
                                 onClick={() => setOpen(false)}
                             >
                                 <RiMenuUnfoldLine
@@ -35,7 +35,7 @@ const Navbar = () => {
                             </div>
                         ) : (
                             <div
-                                className="p-2 rounded-full bg-main border-[1px] border-border-color cursor-pointer text-border-color text-[24px] hover:border-secondary duration-300 group"
+                                className="p-2 rounded-full bg-main border-[1px] border-border-color cursor-pointer text-border-color text-[1.5rem] hover:border-secondary duration-300 group"
                                 onClick={() => setOpen(true)}
                             >
                                 <RiMenuFoldLine

@@ -9,7 +9,7 @@ const Form = () => {
                 <div className="flex flex-col justify-start gap-2">
                     <div className="flex items-center gap-1">
                         <label htmlFor="full_name">FULL NAME</label>
-                        <sup className="text-[12px] text-[#fc4545]">*</sup>
+                        <sup className="text-[0.8rem] text-[#fc4545]">*</sup>
                     </div>
                     <input
                         type="text"
@@ -23,7 +23,7 @@ const Form = () => {
                 <div className="flex flex-col justify-start gap-2">
                     <div className="flex items-center gap-1">
                         <label htmlFor="email">EMAIL</label>
-                        <sup className="text-[12px] text-[#fc4545]">*</sup>
+                        <sup className="text-[0.8rem] text-[#fc4545]">*</sup>
                     </div>
                     <input
                         type="email"
@@ -37,7 +37,7 @@ const Form = () => {
                 <div className="flex flex-col justify-start gap-2">
                     <div className="flex items-center gap-1">
                         <label htmlFor="phone">PHONE</label>
-                        <span className="text-[12px] text-secondary-text">
+                        <span className="text-[0.8rem] text-secondary-text">
                             (Optional)
                         </span>
                     </div>
@@ -52,7 +52,7 @@ const Form = () => {
                 <div className="flex flex-col justify-start gap-2">
                     <div className="flex items-center gap-1">
                         <label htmlFor="text">SUBJECT</label>
-                        <sup className="text-[12px] text-[#fc4545]">*</sup>
+                        <sup className="text-[0.8rem] text-[#fc4545]">*</sup>
                     </div>
                     <input
                         type="text"
@@ -66,7 +66,7 @@ const Form = () => {
                 <div className="flex flex-col justify-start gap-2">
                     <div className="flex items-center gap-1">
                         <label htmlFor="budget">YOUR BUDGET</label>
-                        <span className="text-[12px] text-secondary-text">
+                        <span className="text-[0.8rem] text-secondary-text">
                             (Optional)
                         </span>
                     </div>
@@ -83,7 +83,7 @@ const Form = () => {
             <div className="flex flex-col justify-start gap-2 my-[35px]">
                 <div className="flex items-center gap-1">
                     <label htmlFor="message">YOUR MESSAGE</label>
-                    <span className="text-[12px] text-secondary-text">
+                    <span className="text-[0.8rem] text-secondary-text">
                         (Optional)
                     </span>
                 </div>
@@ -97,7 +97,7 @@ const Form = () => {
                 />
             </div>
             <hr className="border-border-color my-20" />
-            <button className="bg-secondary hover:bg-transparent flex justify-center items-center text-alternative hover:text-secondary py-2 px-10 text-[16px]  rounded-[30px] border-[2px] border-secondary duration-300 ">
+            <button className="bg-secondary hover:bg-transparent flex justify-center items-center text-alternative hover:text-secondary py-2 px-10 text-[1rem]  rounded-[30px] border-[2px] border-secondary duration-300 ">
                 Send Message
             </button>
         </form>

@@ -8,11 +8,11 @@ const Portfolio = () => {
         <section id="portfolios">
             <LazyMotion features={domAnimation}>
                 <div className="section-header">
-                    <AiOutlineDatabase className="text-[16px] mr-2" />
+                    <AiOutlineDatabase className="text-[1rem] mr-2" />
                     <h4>Portfolio</h4>
                 </div>
                 <div className="mb-[50px]">
-                    <h1 className="text-[38px] md:text-[42px] lg:text-[48px] font-[300] mb-[50px]">
+                    <h1 className="text-[2.4rem] md:text-[2.6rem] lg:text-[3rem] font-[300] mb-[50px]">
                         Featured
                         <span className="text-secondary"> Projects</span>
                     </h1>
@@ -39,13 +39,13 @@ const Portfolio = () => {
                             <div className="basis-[60%] xl:basis-[70%] flex flex-col gap-3">
                                 <Link
                                     href="https://restaurantly-modern-app.netlify.app/"
-                                    className="text-[24px] cursor-pointer group-hover:text-secondary duration-300"
+                                    className="text-[1.5rem] cursor-pointer group-hover:text-secondary duration-300"
                                     target="_blank"
                                     title="Restaurantly - Modern Restaurant Website"
                                 >
                                     Restaurantly - Modern Restaurant Website
                                 </Link>
-                                <p className="text-[14px]">
+                                <p className="text-[1rem]">
                                     Modern restaurant website, crafted a sleek
                                     and interactive experience using React and
                                     Tailwind CSS. With dynamic animations
@@ -65,7 +65,7 @@ const Portfolio = () => {
                                             key={index}
                                             className="flex items-center justify-between bg-[rgba(40,233,140,0.1)] text-white rounded-md px-4 py-2 mr-4 mb-4 "
                                         >
-                                            <p className="text-[14px]">
+                                            <p className="text-[1rem]">
                                                 {item}
                                             </p>
                                         </div>
@@ -96,13 +96,13 @@ const Portfolio = () => {
                             <div className="basis-[60%] xl:basis-[70%] flex flex-col gap-3">
                                 <Link
                                     href="https://hoo-bank-modern-bank-app.netlify.app"
-                                    className="text-[24px] cursor-pointer group-hover:text-secondary duration-300"
+                                    className="text-[1.5rem] cursor-pointer group-hover:text-secondary duration-300"
                                     target="_blank"
                                     title="Hoo Bank - Modern Bank App"
                                 >
                                     Hoo Bank - Modern Bank App
                                 </Link>
-                                <p className="text-[14px]">
+                                <p className="text-[1rem]">
                                     Welcome to the future of online banking.
                                     Translated a meticulously designed Figma
                                     prototype into a highly responsive
@@ -121,7 +121,7 @@ const Portfolio = () => {
                                                 key={index}
                                                 className="flex items-center justify-between bg-[rgba(40,233,140,0.1)] text-white rounded-md px-4 py-2 mr-4 mb-4 "
                                             >
-                                                <p className="text-[14px]">
+                                                <p className="text-[1rem]">
                                                     {item}
                                                 </p>
                                             </div>
@@ -153,13 +153,13 @@ const Portfolio = () => {
                             <div className="basis-[60%] xl:basis-[70%] flex flex-col gap-3">
                                 <Link
                                     href="https://gpt-3-modern.netlify.app/"
-                                    className="text-[24px] cursor-pointer group-hover:text-secondary duration-300"
+                                    className="text-[1.5rem] cursor-pointer group-hover:text-secondary duration-300"
                                     target="_blank"
                                     title="Hoo Bank - Modern Bank App"
                                 >
                                     GPT-3 - Modern AI Platform
                                 </Link>
-                                <p className="text-[14px]">
+                                <p className="text-[1rem]">
                                     Welcome to the world of CHAT GPT 3, where
                                     artificial intelligence meets intuitive
                                     design. With a Figma blueprint as our guide,
@@ -180,7 +180,7 @@ const Portfolio = () => {
                                             key={index}
                                             className="flex items-center justify-between bg-[rgba(40,233,140,0.1)] text-white rounded-md px-4 py-2 mr-4 mb-4 "
                                         >
-                                            <p className="text-[14px]">
+                                            <p className="text-[1rem]">
                                                 {item}
                                             </p>
                                         </div>

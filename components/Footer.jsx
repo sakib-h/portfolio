@@ -2,7 +2,7 @@ import Link from "next/link";
 const Footer = () => {
     return (
         <footer className="flex justify-center mb-10">
-            <p className="text-[14px]">
+            <p className="text-[1rem]">
                 Design by
                 <em className="text-secondary">
                     {" "}

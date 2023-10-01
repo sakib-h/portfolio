@@ -41,7 +41,7 @@ const Hero = () => {
                     animate={{ y: 0, opacity: 1 }}
                     transition={{ duration: 0.8, type: "spring" }}
                 >
-                    <AiOutlineHome className="text-[16px] mr-2" />
+                    <AiOutlineHome className="text-[1rem] mr-2" />
                     <h4>Introduction</h4>
                 </m.div>
                 <m.div
@@ -51,7 +51,7 @@ const Hero = () => {
                     transition={{ duration: 0.8, type: "spring" }}
                 >
                     <div className="flex flex-col gap-16 justify-start">
-                        <h1 className="text-[38px] md:text-[42px] lg:text-[48px]  xl:text-[60px] font-[300]">
+                        <h1 className="text-[2.4rem] md:text-[2.6rem] lg:text-[3rem]  xl:text-[4rem] font-[300]">
                             Hello, I'm{" "}
                             <em className="text-secondary font-[500]">
                                 Sakib Hasan
@@ -71,7 +71,7 @@ const Hero = () => {
                             />
                         </h1>
 
-                        <p className="text-secondary-text text-[16px]">
+                        <p className="text-secondary-text text-[1rem]">
                             Passionate MERN stack developer with expertise in
                             building robust, scalable, and interactive web
                             applications. Proficient in MongoDB, Express.js,
@@ -81,7 +81,7 @@ const Hero = () => {
 
                         <div className="button">
                             <button
-                                className="max-w-max  text-alternative text-[16px] font-[400] rounded-[30px] py-2 px-10 bg-secondary hover:bg-transparent  hover:text-secondary  border-[2px] border-secondary duration-300 gap-2 "
+                                className="max-w-max  text-alternative text-[1rem] font-[400] rounded-[30px] py-2 px-10 bg-secondary hover:bg-transparent  hover:text-secondary  border-[2px] border-secondary duration-300 gap-2 "
                                 onClick={handleDownload}
                             >
                                 Download Resume
@@ -119,7 +119,7 @@ const Hero = () => {
                                     className="absolute top-2 right-2 z-[999]"
                                     onClick={handleClose}
                                 >
-                                    <MdOutlineClose className="text-main text-[24px]" />
+                                    <MdOutlineClose className="text-main text-[1.5rem]" />
                                 </button>
                             </m.div>
                         </div>

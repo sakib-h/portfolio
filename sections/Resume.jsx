@@ -37,11 +37,11 @@ const Resume = () => {
         <section id="resume">
             <LazyMotion features={domAnimation}>
                 <div className="section-header">
-                    <IoBriefcaseOutline className="text-[16px] mr-2" />
+                    <IoBriefcaseOutline className="text-[1rem] mr-2" />
                     <h4>Resume</h4>
                 </div>
                 <div className="mb-[50px]">
-                    <h1 className="text-[38px] md:text-[42px] lg:text-[48px] font-[300] mb-[50px]">
+                    <h1 className="text-[2.4rem] md:text-[2.6rem] lg:text-[3rem] font-[300] mb-[50px]">
                         Education &
                         <span className="text-secondary"> Experience</span>
                     </h1>
@@ -65,10 +65,10 @@ const Resume = () => {
                                 <h2 className="text-2xl group-hover:text-secondary duration-300">
                                     FULL STACK DEVELOPER
                                 </h2>
-                                <p className="text-secondary-text text-[12px] my-4">
+                                <p className="text-secondary-text text-[0.8rem] my-4">
                                     DEC 2020 – PRESENT
                                 </p>
-                                <ul className="text-secondary-text text-[14px] ml-[14px] list-disc">
+                                <ul className="text-secondary-text text-[1rem] ml-[14px] list-disc">
                                     <li>
                                         Code Full Stack project using HTML, CSS,
                                         Bootstrap, JavaScript, React.js,
@@ -103,10 +103,10 @@ const Resume = () => {
                                 <h2 className="text-2xl group-hover:text-secondary duration-300">
                                     GRAPHICS DESIGNER
                                 </h2>
-                                <p className="text-secondary-text text-[12px] my-4">
+                                <p className="text-secondary-text text-[0.8rem] my-4">
                                     JUNE 2019 – PRESENT
                                 </p>
-                                <ul className="text-secondary-text text-[14px] ml-[14px] list-disc">
+                                <ul className="text-secondary-text text-[1rem] ml-[14px] list-disc">
                                     <li>
                                         Created digital image files for use in
                                         digital and traditional printing
@@ -161,10 +161,10 @@ const Resume = () => {
                                 <h2 className="text-2xl group-hover:text-secondary duration-300">
                                     B. SC. IN COMPUTER SCIENCE & ENGINEERING
                                 </h2>
-                                <p className="text-secondary-text text-[12px] my-4">
+                                <p className="text-secondary-text text-[0.8rem] my-4">
                                     2022 - PRESENT
                                 </p>
-                                <div className="flex flex-col gap-2 justify-start text-secondary-text text-[14px]">
+                                <div className="flex flex-col gap-2 justify-start text-secondary-text text-[1rem]">
                                     <em>DAFFODIL INTERNATIONAL UNIVERSITY</em>
                                     <span>CGPA 3.42</span>
                                 </div>

@@ -14,11 +14,11 @@
         @apply relative   cursor-pointer;
     }
     .sidebar-icon {
-        @apply text-[20px] text-secondary-text hover:text-primary duration-300;
+        @apply text-[1.3rem] text-secondary-text hover:text-primary duration-300;
     }
 
     .nav-icon {
-        @apply text-[20px] text-secondary-text mx-3;
+        @apply text-[1.3rem] text-secondary-text mx-3;
     }
 
     .is-active > .nav-icon,
@@ -30,7 +30,7 @@
         @apply min-h-screen w-full pt-[120px]  flex flex-col justify-center overflow-x-hidden;
     }
     .section-header {
-        @apply flex items-center font-[300] w-max border-[1px] border-border-color text-[12px] mb-[50px] px-[20px] py-[9px] rounded-[30px] uppercase;
+        @apply flex items-center font-[300] w-max border-[1px] border-border-color text-[0.8rem] mb-[50px] px-[20px] py-[9px] rounded-[30px] uppercase;
     }
 
     li {
@@ -45,10 +45,10 @@
 
     input,
     textarea {
-        @apply bg-transparent border-none outline-none placeholder:text-[#666666] text-secondary-text text-[16px];
+        @apply bg-transparent border-none outline-none placeholder:text-[#666666] text-secondary-text text-[1rem];
     }
     label {
-        @apply text-[12px];
+        @apply text-[0.8rem];
     }
 }
 
@@ -59,7 +59,7 @@ input:-webkit-autofill:focus,
 input:-webkit-autofill:active {
     -webkit-background-clip: text;
     -webkit-text-fill-color: #666666;
-    font-size: 16px;
+    font-size: 0.8rem;
 }
 
 /* Styling for Library Classes */
