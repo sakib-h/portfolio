@@ -19,85 +19,6 @@ const Navbar = () => {
 
     return (
         <LazyMotion features={domAnimation}>
-            <div className="hidden md:flex md:fixed md:top-[50%] md:translate-y-[-50%] md:right-10">
-                <ScrollspyNav
-                    scrollTargetIds={[
-                        "home",
-                        "about",
-                        "resume",
-                        "skills",
-                        "portfolios",
-                        "testimonial",
-                        "contact",
-                    ]}
-                    activeNavClass="is-active"
-                    scrollDuration="500"
-                >
-                    <m.nav
-                        className="w-max flex flex-col py-[24px] gap-6 items-center border-[1px] border-border-color rounded-[30px]"
-                        initial={{ opacity: 0, x: 500 }}
-                        animate={{ opacity: 1, x: 0 }}
-                        transition={{
-                            duration: 0.8,
-                            delay: 0.3,
-                            type: "spring",
-                        }}
-                    >
-                        <Link
-                            className="cursor-pointer"
-                            href="#home"
-                            title="Home"
-                        >
-                            <AiOutlineHome className="nav-icon" />
-                        </Link>
-
-                        <Link
-                            className="cursor-pointer"
-                            href="#about"
-                            title="About"
-                        >
-                            <AiOutlineUser className="nav-icon" />
-                        </Link>
-                        <Link
-                            className="cursor-pointer"
-                            href="#resume"
-                            title="Resume"
-                        >
-                            <IoBriefcaseOutline className="nav-icon" />
-                        </Link>
-
-                        <Link
-                            className="cursor-pointer"
-                            href="#skills"
-                            title="Skills"
-                        >
-                            <MdOutlineWeb className="nav-icon" />
-                        </Link>
-                        <Link
-                            className="cursor-pointer"
-                            href="#portfolios"
-                            title="Portfolio"
-                        >
-                            <AiOutlineDatabase className="nav-icon" />
-                        </Link>
-                        <Link
-                            className="cursor-pointer"
-                            href="#testimonial"
-                            title="Testimonial"
-                        >
-                            <LiaComment className="nav-icon" />
-                        </Link>
-                        <Link
-                            className="cursor-pointer"
-                            href="#contact"
-                            title="Contact"
-                        >
-                            <AiOutlineMail className="nav-icon" />
-                        </Link>
-                    </m.nav>
-                </ScrollspyNav>
-            </div>
-
             {/* Mobile Nav */}
             <div className="md:hidden fixed top-3 right-3 z-[999]">
                 <div className="relative">
@@ -213,6 +134,86 @@ const Navbar = () => {
                         )}
                     </AnimatePresence>
                 </div>
+            </div>
+
+            {/* Desktop Nav */}
+            <div className="hidden md:flex md:fixed md:top-[50%] md:translate-y-[-50%] md:right-10">
+                <ScrollspyNav
+                    scrollTargetIds={[
+                        "home",
+                        "about",
+                        "resume",
+                        "skills",
+                        "portfolios",
+                        "testimonial",
+                        "contact",
+                    ]}
+                    activeNavClass="is-active"
+                    scrollDuration="500"
+                >
+                    <m.nav
+                        className="w-max flex flex-col py-[24px] gap-6 items-center border-[1px] border-border-color rounded-[30px]"
+                        initial={{ opacity: 0, x: 500 }}
+                        animate={{ opacity: 1, x: 0 }}
+                        transition={{
+                            duration: 0.8,
+                            delay: 0.3,
+                            type: "spring",
+                        }}
+                    >
+                        <Link
+                            className="cursor-pointer"
+                            href="#home"
+                            title="Home"
+                        >
+                            <AiOutlineHome className="nav-icon" />
+                        </Link>
+
+                        <Link
+                            className="cursor-pointer"
+                            href="#about"
+                            title="About"
+                        >
+                            <AiOutlineUser className="nav-icon" />
+                        </Link>
+                        <Link
+                            className="cursor-pointer"
+                            href="#resume"
+                            title="Resume"
+                        >
+                            <IoBriefcaseOutline className="nav-icon" />
+                        </Link>
+
+                        <Link
+                            className="cursor-pointer"
+                            href="#skills"
+                            title="Skills"
+                        >
+                            <MdOutlineWeb className="nav-icon" />
+                        </Link>
+                        <Link
+                            className="cursor-pointer"
+                            href="#portfolios"
+                            title="Portfolio"
+                        >
+                            <AiOutlineDatabase className="nav-icon" />
+                        </Link>
+                        <Link
+                            className="cursor-pointer"
+                            href="#testimonial"
+                            title="Testimonial"
+                        >
+                            <LiaComment className="nav-icon" />
+                        </Link>
+                        <Link
+                            className="cursor-pointer"
+                            href="#contact"
+                            title="Contact"
+                        >
+                            <AiOutlineMail className="nav-icon" />
+                        </Link>
+                    </m.nav>
+                </ScrollspyNav>
             </div>
         </LazyMotion>
     );
