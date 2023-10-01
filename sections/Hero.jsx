@@ -81,7 +81,7 @@ const Hero = () => {
 
                         <div className="button">
                             <button
-                                className="max-w-max  text-alternative text-[1rem] font-[400] rounded-[30px] py-2 px-10 bg-secondary hover:bg-transparent  hover:text-secondary  border-[2px] border-secondary duration-300 gap-2 "
+                                className="max-w-max  text-main text-[1rem] font-[400] rounded-[30px] py-2 px-10 bg-secondary hover:bg-transparent  hover:text-secondary  border-[2px] border-secondary duration-300 gap-2 "
                                 onClick={handleDownload}
                             >
                                 Download Resume

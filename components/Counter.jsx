@@ -1,7 +1,7 @@
 import CountUp from "react-countup";
 const Counter = ({ value, title }) => {
     return (
-        <div className="flex flex-col justify-center items-center gap-2 bg-[rgba(40,233,140,0.05)] rounded-lg py-3">
+        <div className="flex flex-col justify-center items-center gap-2 bg-[rgba(187,187,187,0.05)] rounded-lg py-3">
             <div className="text-secondary text-[2rem]">
                 <CountUp
                     end={value}

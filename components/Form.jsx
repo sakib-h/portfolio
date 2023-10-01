@@ -97,7 +97,7 @@ const Form = () => {
                 />
             </div>
             <hr className="border-border-color my-20" />
-            <button className="bg-secondary hover:bg-transparent flex justify-center items-center text-alternative hover:text-secondary py-2 px-10 text-[1rem]  rounded-[30px] border-[2px] border-secondary duration-300 ">
+            <button className="bg-secondary hover:bg-transparent flex justify-center items-center text-main hover:text-secondary py-2 px-10 text-[1rem]  rounded-[30px] border-[2px] border-secondary duration-300 ">
                 Send Message
             </button>
         </form>
