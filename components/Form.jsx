@@ -1,4 +1,56 @@
+"use client";
+import { useState, useRef } from "react";
 const Form = () => {
+    // declaring state
+    // const [name, setName] = useState("");
+    // const [email, setEmail] = useState("");
+    // const [phone, setPhone] = useState("");
+    // const [subject, setSubject] = useState("");
+    // const [budget, setBudget] = useState("");
+    // const [message, setMessage] = useState("");
+
+    const [formData, setFormData] = useState({
+        name: "",
+        email: "",
+        phone: "",
+        subject: "",
+        budget: "",
+        message: "",
+    });
+
+    const [status, setStatus] = useState("");
+    const [error, setError] = useState("");
+    // declaring ref
+    const nameRef = useRef();
+    const emailRef = useRef();
+    const phoneRef = useRef();
+    const subjectRef = useRef();
+    const budgetRef = useRef();
+    const messageRef = useRef();
+
+    // form submit handler
+    const handleSubmit = async (e) => {
+        e.preventDefault();
+
+        const response = await fetch("api/contact/route", {
+            method: "POST",
+            headers: {
+                "Content-type": "application/json",
+                body: JSON.stringify(formData),
+            },
+        });
+
+        const data = await response.json();
+        console.log(data);
+        if (data.status === "success") {
+            setStatus(data.message);
+            setError("");
+        } else {
+            setStatus("");
+            setError(data.message);
+        }
+    };
+
     return (
         <form
             action="mailto:sakib100.sa@gmail.com"
@@ -17,6 +69,13 @@ const Form = () => {
                         id="full_name"
                         placeholder="Full Name"
                         required
+                        ref={nameRef}
+                        onChange={() => {
+                            setFormData({
+                                ...formData,
+                                name: nameRef.current.value,
+                            });
+                        }}
                     />
                 </div>
 
@@ -31,6 +90,13 @@ const Form = () => {
                         id="email"
                         placeholder="Enter Your Email"
                         required
+                        ref={emailRef}
+                        onChange={() => {
+                            setFormData({
+                                ...formData,
+                                email: emailRef.current.value,
+                            });
+                        }}
                     />
                 </div>
 
@@ -46,6 +112,7 @@ const Form = () => {
                         name="phone"
                         id="phone"
                         placeholder="Your Phone Number"
+                        ref={phoneRef}
                     />
                 </div>
 
@@ -60,6 +127,7 @@ const Form = () => {
                         id="subject"
                         placeholder="Subject"
                         required
+                        ref={subjectRef}
                     />
                 </div>
 
@@ -76,6 +144,7 @@ const Form = () => {
                         id="budget"
                         min="0"
                         placeholder="Budget for your Project"
+                        ref={budgetRef}
                     />
                 </div>
             </div>
@@ -94,6 +163,7 @@ const Form = () => {
                     className="input-box h-[100px]"
                     wrap="hard"
                     maxLength="1200"
+                    ref={messageRef}
                 />
             </div>
             <hr className="border-border-color my-20" />
