@@ -2,13 +2,6 @@
 import { useState, useRef } from "react";
 const Form = () => {
     // declaring state
-    // const [name, setName] = useState("");
-    // const [email, setEmail] = useState("");
-    // const [phone, setPhone] = useState("");
-    // const [subject, setSubject] = useState("");
-    // const [budget, setBudget] = useState("");
-    // const [message, setMessage] = useState("");
-
     const [formData, setFormData] = useState({
         name: "",
         email: "",
@@ -17,7 +10,6 @@ const Form = () => {
         budget: "",
         message: "",
     });
-
     const [status, setStatus] = useState("");
     const [error, setError] = useState("");
     // declaring ref
@@ -31,17 +23,12 @@ const Form = () => {
     // form submit handler
     const handleSubmit = async (e) => {
         e.preventDefault();
-
-        const response = await fetch("api/contact/route", {
+        const response = await fetch("api/contact", {
             method: "POST",
-            headers: {
-                "Content-type": "application/json",
-                body: JSON.stringify(formData),
-            },
+            body: JSON.stringify(formData),
         });
 
         const data = await response.json();
-        console.log(data);
         if (data.status === "success") {
             setStatus(data.message);
             setError("");
@@ -52,11 +39,7 @@ const Form = () => {
     };
 
     return (
-        <form
-            action="mailto:sakib100.sa@gmail.com"
-            method="post"
-            encType="text/plain"
-        >
+        <form onSubmit={handleSubmit}>
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-10">
                 <div className="flex flex-col justify-start gap-2">
                     <div className="flex items-center gap-1">
@@ -73,7 +56,7 @@ const Form = () => {
                         onChange={() => {
                             setFormData({
                                 ...formData,
-                                name: nameRef.current.value,
+                                name: nameRef.current.value, //getting value from ref and setting it to state
                             });
                         }}
                     />
@@ -94,7 +77,7 @@ const Form = () => {
                         onChange={() => {
                             setFormData({
                                 ...formData,
-                                email: emailRef.current.value,
+                                email: emailRef.current.value, //getting value from ref and setting it to state
                             });
                         }}
                     />
@@ -113,6 +96,12 @@ const Form = () => {
                         id="phone"
                         placeholder="Your Phone Number"
                         ref={phoneRef}
+                        onChange={() => {
+                            setFormData({
+                                ...formData,
+                                phone: phoneRef.current.value, //getting value from ref and setting it to state
+                            });
+                        }}
                     />
                 </div>
 
@@ -128,6 +117,12 @@ const Form = () => {
                         placeholder="Subject"
                         required
                         ref={subjectRef}
+                        onChange={() => {
+                            setFormData({
+                                ...formData,
+                                subject: subjectRef.current.value, //getting value from ref and setting it to state
+                            });
+                        }}
                     />
                 </div>
 
@@ -145,6 +140,12 @@ const Form = () => {
                         min="0"
                         placeholder="Budget for your Project"
                         ref={budgetRef}
+                        onChange={() => {
+                            setFormData({
+                                ...formData,
+                                budget: String(budgetRef.current.value), //getting value from ref and setting it to state
+                            });
+                        }}
                     />
                 </div>
             </div>
@@ -164,12 +165,23 @@ const Form = () => {
                     wrap="hard"
                     maxLength="1200"
                     ref={messageRef}
+                    onChange={() => {
+                        setFormData({
+                            ...formData,
+                            message: messageRef.current.value, //getting value from ref and setting it to state
+                        });
+                    }}
                 />
             </div>
             <hr className="border-border-color my-20" />
-            <button className="bg-secondary hover:bg-transparent flex justify-center items-center text-main hover:text-secondary py-2 px-10 text-[1rem]  rounded-[30px] border-[2px] border-secondary duration-300 ">
+            <button
+                type="submit"
+                className="bg-secondary hover:bg-transparent flex justify-center items-center text-main hover:text-secondary py-2 px-10 text-[1rem]  rounded-[30px] border-[2px] border-secondary duration-300 "
+            >
                 Send Message
             </button>
+
+            <p>{status}</p>
         </form>
     );
 };

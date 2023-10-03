@@ -29,7 +29,7 @@ const Testimonial = () => {
                         width={100}
                         height={100}
                         alt="brand-logo"
-                        className="brightness-50 hover:brightness-90 cursor-pointer duration-300"
+                        className="brightness-50 hover:brightness-90 w-auto h-auto cursor-pointer duration-300"
                     />
 
                     <Image
@@ -37,7 +37,7 @@ const Testimonial = () => {
                         width={100}
                         height={100}
                         alt="brand-logo"
-                        className="brightness-50 hover:brightness-90 cursor-pointer duration-300"
+                        className="brightness-50 hover:brightness-90 w-auto h-auto cursor-pointer duration-300"
                     />
 
                     <Image
@@ -45,7 +45,7 @@ const Testimonial = () => {
                         width={100}
                         height={100}
                         alt="brand-logo"
-                        className="brightness-50 hover:brightness-90 cursor-pointer duration-300"
+                        className="brightness-50 hover:brightness-90 w-auto h-auto cursor-pointer duration-300"
                     />
 
                     <Image
@@ -53,7 +53,7 @@ const Testimonial = () => {
                         width={100}
                         height={100}
                         alt="brand-logo"
-                        className="brightness-50 hover:brightness-90 cursor-pointer duration-300"
+                        className="brightness-50 hover:brightness-90 w-auto h-auto cursor-pointer duration-300"
                     />
 
                     <Image
@@ -61,7 +61,7 @@ const Testimonial = () => {
                         width={100}
                         height={100}
                         alt="brand-logo"
-                        className="brightness-50 hover:brightness-90 cursor-pointer duration-300"
+                        className="brightness-50 hover:brightness-90 w-auto h-auto cursor-pointer duration-300"
                     />
 
                     <Image
@@ -69,7 +69,7 @@ const Testimonial = () => {
                         width={100}
                         height={100}
                         alt="brand-logo"
-                        className="brightness-50 hover:brightness-90 cursor-pointer duration-300"
+                        className="brightness-50 hover:brightness-90 w-auto h-auto cursor-pointer duration-300"
                     />
 
                     <Image
@@ -77,7 +77,7 @@ const Testimonial = () => {
                         width={100}
                         height={100}
                         alt="brand-logo"
-                        className="brightness-50 hover:brightness-90 cursor-pointer duration-300"
+                        className="brightness-50 hover:brightness-90 w-auto h-auto cursor-pointer duration-300"
                     />
 
                     <Image
@@ -85,7 +85,7 @@ const Testimonial = () => {
                         width={100}
                         height={100}
                         alt="brand-logo"
-                        className="brightness-50 hover:brightness-90 cursor-pointer duration-300"
+                        className="brightness-50 hover:brightness-90 w-auto h-auto cursor-pointer duration-300"
                     />
                 </div>
             </div>
