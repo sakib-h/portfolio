@@ -5,6 +5,7 @@ import { AiOutlineHome } from "react-icons/ai";
 import { MdOutlineClose } from "react-icons/md";
 import Typewriter from "typewriter-effect";
 import { LazyMotion, domAnimation, m, AnimatePresence } from "framer-motion";
+
 const Hero = () => {
     // state for error handling
     const [error, setError] = useState(false);
