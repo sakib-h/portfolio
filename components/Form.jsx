@@ -226,9 +226,7 @@ const Form = () => {
                             exit={{ opacity: 0, scale: 0 }}
                             transition={{ duration: 0.5, type: "spring" }}
                         >
-                            <p className="text-red-700 text-base">
-                                {message}
-                            </p>
+                            <p className="text-red-700 text-base">{message}</p>
 
                             <button
                                 className="absolute top-2 right-2 z-[999]"

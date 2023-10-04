@@ -20,12 +20,12 @@ export const POST = async (req) => {
 
     try {
         transporter.sendMail(mailOptions);
-        NextResponse.json({
+        return NextResponse.json({
             status: "success",
             message: "Your message has been sent!",
         });
     } catch (err) {
-        NextResponse.json({
+        return NextResponse.json({
             status: "error",
             message: "Something went wrong. Please try again later.",
         });
