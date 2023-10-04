@@ -50,7 +50,7 @@ const Slider = () => {
                     </div>
                 </div>
                 <div className="client-feedback">
-                    <p className="text-[1.2rem] mb-[24px]">
+                    <p className="text-[1rem] mb-[24px]">
                         "Sakib - A Developer with the creativity, professional
                         and master of code. Much more than what i'm expect. High
                         quality product & flexible price. Recommended!.”
@@ -59,7 +59,7 @@ const Slider = () => {
                         href="https://restaurantly-modern-app.netlify.app/"
                         target="_blank"
                         title="Restaurantly - Modern Restaurant Website"
-                        className="cursor-pointer text-[1rem]"
+                        className="cursor-pointer text-[0.9rem] bg-[rgba(187,187,187,0.1)] text-white rounded-md px-4 py-2"
                     >
                         Project
                     </Link>
@@ -86,7 +86,7 @@ const Slider = () => {
                     </div>
                 </div>
                 <div className="client-feedback">
-                    <p className="text-[1.2rem] mb-[24px]">
+                    <p className="text-[1rem] mb-[24px]">
                         "Sakib was a real pleasure to work with and we look
                         forward to working with him again. He's definitely the
                         kind of designer that you can trust with any project
@@ -96,7 +96,7 @@ const Slider = () => {
                         href="https://hoo-bank-modern-bank-app.netlify.app"
                         target="_blank"
                         title="Hoo Bank - Modern Bank App"
-                        className="cursor-pointer text-[1rem]"
+                        className="cursor-pointer text-[0.9rem] bg-[rgba(187,187,187,0.1)] text-white rounded-md px-4 py-2"
                     >
                         Project
                     </Link>
@@ -121,7 +121,7 @@ const Slider = () => {
                     </div>
                 </div>
                 <div className="client-feedback">
-                    <p className="text-[1.2rem] mb-[24px]">
+                    <p className="text-[1rem] mb-[24px]">
                         "Sakib was an absolute delight to collaborate with, & I
                         eagerly anticipate future projects with him. He is
                         undoubtedly the type of developer you can entrust with
@@ -131,7 +131,7 @@ const Slider = () => {
                         href="https://gpt-3-modern.netlify.app"
                         target="_blank"
                         title="GPT-3 Modern AI Website"
-                        className="cursor-pointer text-[1rem]"
+                        className="cursor-pointer text-[0.9rem] bg-[rgba(187,187,187,0.1)] text-white rounded-md px-4 py-2"
                     >
                         Project
                     </Link>
@@ -158,7 +158,7 @@ const Slider = () => {
                     </div>
                 </div>
                 <div className="client-feedback">
-                    <p className="text-[1.2rem] mb-[24px]">
+                    <p className="text-[1rem] mb-[24px]">
                         "Sakib has been an absolute pleasure to work with. His
                         development skills are truly top-notch, and they
                         consistently delivered beyond our expectations.
@@ -168,7 +168,7 @@ const Slider = () => {
                         href="https://hoo-bank-modern-bank-app.netlify.app"
                         target="_blank"
                         title="Hoo Bank - Modern Bank App"
-                        className="cursor-pointer text-[1rem]"
+                        className="cursor-pointer text-[0.9rem] bg-[rgba(187,187,187,0.1)] text-white rounded-md px-4 py-2"
                     >
                         Project
                     </Link>

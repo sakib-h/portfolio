@@ -22,9 +22,9 @@ const Skills = () => {
                 <h4>Skills</h4>
             </div>
 
-            <div className="mb-[3rem]">
-                <div className="mb-[3rem]">
-                    <h1 className="text-[2.4rem] md:text-[2.6rem] lg:text-[3rem] font-[300] mb-[3rem]">
+            <div className="mb-[1rem] md:mb-[2rem] lg:mb-[3rem]">
+                <div className="mb-[1rem] md:mb-[2rem] lg:mb-[3rem]">
+                    <h1 className="text-[2rem] md:text-[2.5rem] lg:text-[3rem] font-[300] mb-[1rem] md:mb-[2rem] lg:mb-[3rem]">
                         Get to
                         <span className="text-secondary"> Know Me</span>
                     </h1>
@@ -43,7 +43,7 @@ const Skills = () => {
                                 <h4 className="text-lg text-primary mb-5 group-hover:text-secondary duration-300">
                                     Proficiency in MongoDB and Express.js
                                 </h4>
-                                <p>
+                                <p className="text-[0.9rem]">
                                     My proficiency in MongoDB allows me to
                                     design{" "}
                                     <strong className="group-hover:text-secondary duration-300">
@@ -65,7 +65,7 @@ const Skills = () => {
                                 <h4 className="text-lg text-primary mb-5 group-hover:text-secondary duration-300">
                                     Crafting Intuitive UI with React & Next
                                 </h4>
-                                <p>
+                                <p className="text-[0.9rem]">
                                     With React & Next, I craft intuitive and
                                     interactive user interfaces, providing a
                                     rich and{" "}
@@ -80,7 +80,7 @@ const Skills = () => {
                                     Expertise in Node.js for Server-Side
                                     Applications
                                 </h4>
-                                <p>
+                                <p className="text-[0.9rem]">
                                     My expertise in Node.js empowers me to
                                     develop fast and scalable{" "}
                                     <strong className="group-hover:text-secondary duration-300">
@@ -94,7 +94,7 @@ const Skills = () => {
                                 <h4 className="text-lg text-primary mb-5 group-hover:text-secondary duration-300">
                                     Delivering High-Quality MERN Stack Solutions
                                 </h4>
-                                <p>
+                                <p className="text-[0.9rem]">
                                     I am adept at leveraging the full potential
                                     of the MERN stack to deliver{" "}
                                     <strong className="group-hover:text-secondary duration-300">
@@ -112,7 +112,7 @@ const Skills = () => {
                                 <h4 className="text-lg text-primary mb-5 group-hover:text-secondary duration-300">
                                     Strong Problem-Solving Skills
                                 </h4>
-                                <p>
+                                <p className="text-[0.9rem]">
                                     Through a combination of strong
                                     <strong className="group-hover:text-secondary duration-300">
                                         {" "}
@@ -143,7 +143,7 @@ const Skills = () => {
                                 <h4 className="text-lg text-primary mb-5 group-hover:text-secondary duration-300">
                                     Proficient in using Git and GitHub
                                 </h4>
-                                <p>
+                                <p className="text-[0.9rem]">
                                     I am proficient in using Git and GitHub for{" "}
                                     <strong className="group-hover:text-secondary duration-300">
                                         version control
@@ -163,7 +163,7 @@ const Skills = () => {
                 </div>
 
                 <div>
-                    <h3 className="text-[1.5rem] mb-5">
+                    <h3 className="text-[2rem] md:text-[2.5rem] lg:text-[3rem] mb-5">
                         Skill and{" "}
                         <span className="text-secondary"> Expertise</span>{" "}
                     </h3>

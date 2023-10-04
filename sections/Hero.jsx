@@ -52,7 +52,7 @@ const Hero = () => {
                     transition={{ duration: 0.8, type: "spring" }}
                 >
                     <div className="flex flex-col gap-16 justify-start">
-                        <h1 className="text-[2.4rem] md:text-[2.6rem] lg:text-[3rem]  xl:text-[4rem] font-[300]">
+                        <h1 className="text-[2rem] md:text-[2.5rem] lg:text-[3rem]  xl:text-[4rem] font-[300]">
                             Hello, I'm{" "}
                             <em className="text-secondary font-[500]">
                                 Sakib Hasan
@@ -91,7 +91,7 @@ const Hero = () => {
                     </div>
                 </m.div>
                 <m.div
-                    className="flex flex-col lg:flex-row justify-between gap-10 items-center mb-[3rem]"
+                    className="flex flex-col lg:flex-row justify-between gap-10 items-center mb-[1rem] md:mb-[2rem] lg:mb-[3rem]"
                     initial={{ x: 1000, opacity: 0 }}
                     animate={{ x: 0, opacity: 1 }}
                     transition={{ duration: 0.8, type: "spring" }}

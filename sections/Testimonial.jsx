@@ -9,21 +9,21 @@ const Testimonial = () => {
                 <LiaComment className="text-[1rem] mr-2" />
                 <h4>Testimonial</h4>
             </div>
-            <div className="mb-[3rem]">
-                <h1 className="text-[2.4rem] md:text-[2.6rem] lg:text-[3rem] font-[300] mb-[3rem]">
+            <div className="mb-[1rem] md:mb-[2rem] lg:mb-[3rem]">
+                <h1 className="text-[2rem] md:text-[2.5rem] lg:text-[3rem] font-[300] mb-[1rem] md:mb-[2rem] lg:mb-[3rem]">
                     Trusted by
                     <span className="text-secondary"> 20+ Clients</span>
                 </h1>
             </div>
 
-            <div className="w-full mb-[3rem]">
+            <div className="w-full mb-[1rem] md:mb-[2rem] lg:mb-[3rem]">
                 <Slider />
             </div>
             <div>
-                <p className="text-[1rem] font-[300] mb-[3rem]">
+                <p className="text-[1rem] font-[300] mb-[1rem] md:mb-[2rem] lg:mb-[3rem]">
                     WORK WITH 20+ BRANDS WORLDWIDE
                 </p>
-                <div className="grid grid-cols-3 lg:grid-cols-4 gap-y-20 justify-items-center  items-center">
+                <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-y-20 justify-items-center  items-center">
                     <Image
                         src="/images/clients/client-1.png"
                         width={100}
