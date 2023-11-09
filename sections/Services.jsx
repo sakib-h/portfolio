@@ -41,6 +41,34 @@ const Services = () => {
 								Fully Responsive, optimized for various screen
 								sizes and devices
 							</li>
+							<li className="flex items-start text-sm gap-2">
+								<Image
+									src="/images/extras/check.svg"
+									width={20}
+									height={20}
+									alt="check"
+								/>
+								Basic SEO Optimization to improve search engine
+								visibility
+							</li>
+							<li className="flex items-start text-sm gap-2">
+								<Image
+									src="/images/extras/check.svg"
+									width={20}
+									height={20}
+									alt="check"
+								/>
+								Domain and Hosting Setup
+							</li>
+							<li className="flex items-start text-sm gap-2">
+								<Image
+									src="/images/extras/check.svg"
+									width={20}
+									height={20}
+									alt="check"
+								/>
+								Contact Form and Basic Integration
+							</li>
 						</ul>
 					</div>
 				</div>
