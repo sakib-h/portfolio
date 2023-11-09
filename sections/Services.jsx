@@ -32,6 +32,12 @@ const Services = () => {
 								Features and Functionality
 							</li>
 							<li className="flex items-start text-sm gap-2">
+								<Image
+									src="/images/extras/check.svg"
+									width={20}
+									height={20}
+									alt="check"
+								/>
 								Fully Responsive, optimized for various screen
 								sizes and devices
 							</li>
